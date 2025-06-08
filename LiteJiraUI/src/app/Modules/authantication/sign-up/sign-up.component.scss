@@ -1,0 +1,105 @@
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    background: white;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .login-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(135deg, #0558ff, #0558ff);
+    clip-path: ellipse(90% 120% at 10% 50%);
+  }
+  
+  .left-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+    z-index: 1;
+  }
+  
+  .heading-main {
+    color: #dfe8f1;
+  }
+  
+  .right-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    z-index: 1;
+  }
+  
+  .sign-in-card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .sign-in-card .logo img {
+    width: 80px;
+    // margin-bottom: 1rem;
+  }
+  
+  .sign-in-card .title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .sign-in-card .subtitle {
+    color: #7f8c8d;
+    line-height:18px;
+    // margin-bottom: 0rem;
+  }
+  
+  .sign-in-card .form-group {
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .options .forgot-password {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .sign-in-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background: #0558ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .sign-in-btn:hover {
+    background: #1b73ed;
+  }
+  

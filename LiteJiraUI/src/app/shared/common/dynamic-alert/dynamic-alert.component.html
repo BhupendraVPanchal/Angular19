@@ -1,0 +1,23 @@
+<div class="container-fluid">
+
+  <button class="btn close-btn" (click)="closed()" *ngIf="data.showCloseButton"><i class="bi bi-x-lg"></i></button>
+
+  <mat-dialog-content>
+    <div class="icon_div" [style.color]="icon_color" [style.border-color]="icon_color" *ngIf="data.icon">
+      <i [ngClass]="icon_class"></i>
+    </div>
+
+    <h3  class="text-muted">{{data.title}}</h3>
+    <h4 *ngIf="data.text"><strong>{{data.text}}</strong></h4>
+    <mat-label *ngIf="data.showInput" >{{data.inputLabel}}</mat-label>
+    <mat-form-field *ngIf="data.showInput">
+      <input matInput [(ngModel)]="user_input" [required]="data.showInput" >
+    </mat-form-field>
+    <div class="d-flex justify-content-center action-btns">
+      <button mat-raised-button *ngIf="data.showConfirmButton" [disabled]="data.showInput && !user_input" class="btn confirm_btn mx-1" (click)="confirmed()">{{data.confirmButtonText}}</button>
+      <button mat-raised-button *ngIf="data.showDenyButton" class="btn denied_btn mx-1" (click)="denied()">{{data.denyButtonText}}</button>
+      <button mat-raised-button *ngIf="data.showCancelButton" class="btn close_btn mx-1" (click)="cancelled()">{{data.cancelButtonText}}</button>
+    </div>
+  </mat-dialog-content>
+  <mat-progress-bar *ngIf="data.timer" mode="determinate" [value]="remaining_timer_time_in_percent"></mat-progress-bar>
+</div>

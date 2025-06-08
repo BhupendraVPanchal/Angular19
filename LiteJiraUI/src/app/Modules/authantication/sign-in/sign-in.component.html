@@ -1,0 +1,57 @@
+<div class="login-container">
+  <div class="left-section">
+    <div class="text-container">
+      <!--<h1 class="heading-main">Empower Your Workflow, Elevate Your Productivity</h1>-->
+      <!--<h2 class="heading-main">Simplify Project Management & Stay Ahead With Effortless Collaboration.</h2>-->
+    </div>
+  </div>
+
+
+  <div class="right-section">
+    <div class="sign-in-card">
+      <div class="logo">
+        <img src="./images/logo-icon.svg" alt="LiteJira Logo">
+      </div>
+      <!--<h2 class="title">Sign In to LiteJira</h2>-->
+      <!--<p class="subtitle">Simplify project management and stay ahead with effortless collaboration.</p>-->
+
+      <!-- Corrected Form with (ngSubmit) -->
+      <form [formGroup]="authForm" (ngSubmit)="login()">
+        <div class="form-group">
+          <app-lite-box field="username"
+                        Caption="UserName"
+                        [Isnum]="'text'"
+                        [formGroup]="authForm"
+                        [IsReq]="true"
+                        [maxLen]="20">
+          </app-lite-box>
+        </div>
+
+        <div class="form-group">
+          <app-lite-box field="password"
+                        Caption="Password"
+                        [Isnum]="'password'"
+                        [formGroup]="authForm"
+                        [IsReq]="true"
+                        [maxLen]="20">
+          </app-lite-box>
+        </div>
+
+        <div class="options">
+          <app-lite-checkbox [formGroup]="authForm"
+                             Caption="Remember Me"
+                             field="remember_me">
+          </app-lite-checkbox>
+          <a routerLink="/authentication/forgot-password" class="forgot-password">
+            Forgot password?
+          </a>
+        </div>
+
+        <!-- Corrected Button (inside form) -->
+        <button type="submit" class="sign-in-btn" [disabled]="authForm.invalid">
+          Sign In
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

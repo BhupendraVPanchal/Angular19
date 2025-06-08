@@ -1,0 +1,40 @@
+.search-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    color: #666;
+  }
+
+  .input-search {
+    padding-left: 35px; // Space for search icon
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    height: 30px;
+  }
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background: #f5f5f5;
+  font-weight: bold;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+}
+
+.mat-icon-button {
+  margin: 0 5px;
+}

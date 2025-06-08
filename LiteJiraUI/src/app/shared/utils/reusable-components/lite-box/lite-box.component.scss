@@ -1,0 +1,23 @@
+::ng-deep .mat-mdc-form-field {
+  font-size: 18px !important; 
+}
+
+::ng-deep .mdc-text-field--outlined {
+  height: 36px !important; /* Reduce overall input height */
+}
+
+/* Ensure input height is correctly set */
+::ng-deep .mat-mdc-form-field-infix {
+  min-height: 30px !important;
+  padding-top: 8px !important;
+  padding-bottom: 8px !important;
+}
+
+
+
+/* Fix for mobile screens */
+@media (max-width: 767px) {
+  ::ng-deep .mat-mdc-form-field-infix {
+    min-height: 28px !important;
+  }
+}

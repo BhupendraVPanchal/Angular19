@@ -1,0 +1,13 @@
+<div class="file-viewer">
+    <h2>File Preview</h2>
+    <div class="preview-container">
+      <img *ngIf="fileType.startsWith('image/')" [src]="fileUrl" alt="Image Preview">
+      <iframe *ngIf="fileType === 'application/pdf'" [src]="fileUrl"></iframe>
+      <pre *ngIf="fileType.startsWith('text/')">{{ data.file.text() | async }}</pre>
+      <p *ngIf="!fileType.startsWith('image/') && fileType !== 'application/pdf' && !fileType.startsWith('text/')">
+        Cannot preview this file type.
+      </p>
+    </div>
+    <button mat-button (click)="close()">Close</button>
+  </div>
+  

@@ -1,0 +1,13 @@
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\bin\Debug\net8.0\Helper_CL.deps.json
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\bin\Debug\net8.0\Helper_CL.dll
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\bin\Debug\net8.0\Helper_CL.pdb
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.csproj.AssemblyReference.cache
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.GeneratedMSBuildEditorConfig.editorconfig
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.AssemblyInfoInputs.cache
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.AssemblyInfo.cs
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.csproj.CoreCompileInputs.cache
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.sourcelink.json
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.dll
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\refint\Helper_CL.dll
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.pdb
+D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\ref\Helper_CL.dll

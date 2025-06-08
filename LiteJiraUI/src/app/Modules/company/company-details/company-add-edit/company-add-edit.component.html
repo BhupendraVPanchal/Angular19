@@ -1,0 +1,69 @@
+
+
+
+<div class="breadcrumb-card mb-25 d-md-flex align-items-center justify-content-between">
+  <h5 class="mb-0">
+    Create Company
+  </h5>
+  <ol class="breadcrumb list-unstyled mt-0 mb-0 pl-0">
+    <li class="breadcrumb-item position-relative">
+      <a routerLink="/" class="d-inline-block position-relative">
+        <i class="ri-home-8-line"></i>
+        Dashboard
+      </a>
+    </li>
+    <li class="breadcrumb-item position-relative">
+      Master
+    </li>
+    <li class="breadcrumb-item position-relative">
+      Company
+    </li>
+  </ol>
+</div>
+
+<mat-card class="daxa-card create-contact-card mb-25 border-radius bg-white border-none d-block"
+          [class.rtl-enabled]="themeService.isRTLEnabled()">
+  <mat-card-content>
+    <form [formGroup]="companyDetailsGroup">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <app-lite-box [formGroup]="companyDetailsGroup" field="company_name" Caption="Company Name" [Isnum]="'text'" [IsReq]="true" [maxLen]="20"></app-lite-box>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <app-lite-box [formGroup]="companyDetailsGroup" field="alias" Caption="Alias Name" [Isnum]="'text'" [IsReq]="true" [maxLen]="3"></app-lite-box>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <lite-ddl [formGroup]="companyDetailsGroup" field="country" [Caption]="'Select country'" [IsReq]="true" [options]="countryList">
+          </lite-ddl>
+        </div>
+        <div class="col-md-8 col-sm-6">
+          <lite-editor [formGroup]="companyDetailsGroup" field="company_description" Caption="Company Description"></lite-editor>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <lite-textarea [formGroup]="companyDetailsGroup" field="address" Caption="Address"></lite-textarea>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <app-lite-box [formGroup]="companyDetailsGroup" field="website" Caption="Website" [Isnum]="'text'" [IsReq]="true" [maxLen]="100"></app-lite-box>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <app-lite-box [formGroup]="companyDetailsGroup" field="company_email" Caption="Business Email" [Isnum]="'text'" [IsReq]="true" [maxLen]="50"></app-lite-box>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <app-lite-box [formGroup]="companyDetailsGroup" field="company_phone" Caption="Business Contact" [Isnum]="'text'" [IsReq]="true" [maxLen]="50"></app-lite-box>
+        </div>
+        <div class="col-md-8 col-sm-6">
+          <app-lite-file-uploader [formGroup]="companyDetailsGroup" field="company_logo" [multiple]="false" accept="image/*"></app-lite-file-uploader>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <lite-switch [formGroup]="companyDetailsGroup" field="is_locked" Caption="Active/InActive"></lite-switch>
+        </div>
+        <!-- Left Side: Company Details -->
+      </div>
+      <!-- Buttons Section -->
+      <div class="btn-box text-end mt-3">
+        <button mat-flat-button color="primary" class="me-2">Save</button>
+        <button mat-flat-button color="warn">Cancel</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

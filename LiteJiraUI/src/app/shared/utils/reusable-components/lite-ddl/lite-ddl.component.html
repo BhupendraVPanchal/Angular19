@@ -1,0 +1,16 @@
+<div [formGroup]="formGroup" class="mb-25">
+  <label class="main-label d-block lh-1 text-black mb-5">{{Caption}}&nbsp;<span style="color:red" *ngIf="IsReq" class="required">*</span></label>
+  <mat-form-field>
+    <mat-select [formControlName]="field"
+                [multiple]="isMultiSelect"
+                [disabled]="disabled"
+                (selectionChange)="onSelectionChange($event)">
+      <mat-option *ngFor="let option of options" [value]="option[valueField]">
+        {{ option[displayField] }}
+      </mat-option>
+    </mat-select>
+    <mat-error *ngIf="IsReq && formGroup.controls[field].hasError('required')">
+      {{ Caption }} is required.
+    </mat-error>
+  </mat-form-field>
+</div>

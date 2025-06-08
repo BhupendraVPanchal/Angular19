@@ -1,0 +1,124 @@
+@use "sass:color"; 
+
+.alert-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  max-width: 370px;
+  animation: fadeInBounce 0.4s ease-in-out;
+}
+
+/* Fade-in with bounce effect */
+@keyframes fadeInBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fade-out animation */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* Apply fade-out when alert is dismissed */
+.alert-dismiss {
+  animation: fadeOut 0.3s ease-in-out forwards;
+}
+
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-radius: 6px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+
+  &-confirmation {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    margin-left: auto;
+
+    button {
+      background: transparent;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        background: #f0f0f0;
+      }
+    }
+  }
+}
+
+// ** Themed styles (for dark mode, etc.) **
+.component-dark-theme {
+  .alert {
+    &:not(.alert-secondary, .alert-light) {
+      .close {
+        color: var(--whiteColor);
+      }
+    }
+  }
+}
+
+// ** Alert colors (Bootstrap-inspired, using color.mix) **
+$alert-colors: (
+  success: #28a745,
+  danger: #dc3545,
+  warning: #ffc107,
+  info: #17a2b8,
+  primary: #007bff,
+  secondary: #6c757d,
+  light: #f8f9fa,
+  dark: #343a40
+);
+
+// Generate alert styles dynamically (Using color.channel and color.mix)
+@each $name, $color in $alert-colors {
+  .alert-#{$name} {
+    background-color: $color;
+    color: if(color.channel($color, "lightness", $space: hsl) > 50%, #212529, #fff);
+    border-left: 5px solid color.mix(black, $color, 15%);
+  }
+}
+
+// ** Button adjustments **
+button.close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}

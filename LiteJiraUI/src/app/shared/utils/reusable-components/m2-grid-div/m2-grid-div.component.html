@@ -1,0 +1,270 @@
+<div [id]="tableId" class="grid-data-table m-grid-new" (keydown)="keydown($event)" tabindex="-1" [style.height]="config.height" (contextmenu)="contextmenu($event)" [cdkContextMenuTriggerFor]="context_menu_template">
+  <!---->
+
+  <ng-container *ngIf="column_config && column_config.length > 0;else loading">
+
+    <div #table class="mt-table table-bordered  table-striped mb-0 position-relative overflow-hidden">
+
+      <div #header class="thead  overflow-hidden w-100 d-flex " [class.flex-column]="config.column_search" (scroll)="head_scroll($event)">
+
+        <div class="tr header-row" [attr.row-index]="1">
+
+          <!--<div class="th btn-group-drop"> <button *ngIf="config.allow_add" (click)="add_item()" class="btn p-0"><i class="bi bi-plus-lg"></i></button> </div>-->
+          <div class="th btn-group-drop"></div>
+          <div class="th" *ngIf="!config.allow_edit && !config.allow_add && config.multi_row_select"> Select </div>
+
+          <!--#region "all columns header"-->
+          <ng-container *ngFor="let col of column_config;let c = index">
+            <!--[style.width.px]="(c == column_config.length - 1 ? scroll_bar_width : 0) + (col.width ? col.width : 130)"-->
+            <div class="th" #column [hidden]="!all_visible && !col['IsVisible']" [class.action-btn]="col.control == 'action'"
+                 [style.width.px]="(col.width ? col.width : 130)"
+                 (click)="sort_click(col,col.ColumnName)"
+                 [class.sorting]="col.sorting"
+                 [ngClass]="{ 'sorting_asc': is_sort('asc',col.ColumnName), 'sorting_desc': is_sort('desc',col.ColumnName) }" [class.text-center]="col.control == 'checkbox'|| col.control == 'radiobutton' || col.control == 'button'">
+              <div class="thead-text" >
+
+                <div class="d-flex align-items-center justify-content-between">
+
+                  <span [class.fw-bold]="col.hasOwnProperty('IsMust') && col['IsMust']"> {{col.ColumnCaption}} </span>
+                  <mat-icon *ngIf="col['control'] == 'm2help'"><svg><use xlink:href="./assets/images/svg/mt-help-ic.svg#mt-help_ic"></use></svg></mat-icon>
+
+                  <div class="assending-ic" *ngIf="col.sorting"><i class="bi bi-caret-up-fill"></i> <i class="bi bi-caret-down-fill"></i></div>
+
+                </div>
+
+              </div>
+              <!--*ngIf="!config.full_width"-->
+              <div class="column-drag-line vertical-card resize" cdkDrag [cdkDragLockAxis]="'x'"
+                   (cdkDragStarted)="drag_start($event,column)" (cdkDragMoved)="drag_moved($event,column)" (cdkDragReleased)="drag_release($event,column,col)">
+                <div class="drag_line"></div>
+              </div>
+
+            </div>
+
+          </ng-container>
+          <!--#endregion-->
+
+        </div>
+
+        <div class="tr bott-head" [attr.row-index]="2" *ngIf="config.column_search">
+
+          <div class="th btn-group-drop"> </div>
+          <div class="th" *ngIf="!config.allow_edit && !config.allow_add && config.multi_row_select"> </div>
+
+          <!--#region "all columns header"-->
+          <ng-container *ngFor="let col of column_config;let c = index">
+
+            <div class="th" [attr.col-index]="col['ColumnOrder']" [hidden]="!all_visible && !col['IsVisible']" [class.action-btn]="col.control == 'action'"
+                 [style.width.px]="(col.width ? col.width : 130)">
+              <!--[style.width.px]="(c == column_config.length - 1 ? scroll_bar_width : 0) + (col.width ? col.width : 130)"-->
+
+              <div class="thead-text d-flex">
+                <input [attr.col-index]="col['ColumnOrder']" [(ngModel)]="col['mt_filter']" (input)="search_input($event)" (keydown)="search_keydown($event)" class="form-control" [readonly]="col.control != 'textbox' ? 'readonly': ''" />
+                <button class="btn p-0 filter-btn" [matMenuTriggerFor]="filterMenu"><i class="bi bi-filter"></i></button>
+              </div>
+
+              <mat-menu #filterMenu xPosition="before">
+                <div class="filter-menus" (click)="$event.stopPropagation()">
+                  <div class="header-search ">
+                    <mat-form-field appearance="outline" class="w-100">
+                      <input matInput placeholder="Search">
+                      <mat-icon matSuffix><i class="bi bi-search"></i></mat-icon>
+                    </mat-form-field>
+                  </div>
+                  <ul class="list-unstyled mb-0">
+                    <li> <mat-checkbox>  Lasun filter 1</mat-checkbox> </li>
+                    <li> <mat-checkbox>Lasun filter 2</mat-checkbox> </li>
+                    <li> <mat-checkbox>Lasun filter 3</mat-checkbox> </li>
+                    <li> <mat-checkbox>Lasun filter 4</mat-checkbox> </li>
+                    <li> <mat-checkbox>Lasun filter 5</mat-checkbox> </li>
+                  </ul>
+                </div>
+              </mat-menu>
+
+            </div>
+
+          </ng-container>
+          <!--#endregion-->
+
+        </div>
+
+      </div>
+
+      <ng-container *ngIf="data && data.length > 0;else no_data">
+
+        <div #viewport class="viewport position-relative" (scroll)="scroll($event)" [style.maxHeight]="viewport_height">
+          <!--[style.height.px]="estimated_content_height"-->
+
+          <div #content class="tbody w-100">
+
+            <ng-container *ngFor="let item of data; let i=index; trackBy:track">
+
+              <div class="tr {{item?.classstyle}}" *ngIf="!item['hide'] && !item['filter_hide'] && item['viewport']" [attr.row-index]="i" [class.invalid-row]="item['in-valid']">
+
+                <div class="td">
+                  <span *ngIf="item['save_state'] == 'e'" class="g-status g-completed"><img class="w-100" src="./assets/images/gif/grid-error.gif" alt="row Error img" /></span>
+                  <span *ngIf="item['save_state'] == 'l'" class="g-status g-loader"><img class="w-100" src="./assets/images/svg/grid-loader.svg" alt="row loader img" /></span>
+                  <!--<span *ngIf="item['save_state'] == 's'" class="g-status g-completed"><img class="w-100" src="./assets/images/gif/grid-success.gif" alt="row Save img" /></span>-->
+
+                  <!--<span class="g-status edit"> <img class="w-100" src="./assets/images/svg/grid-edit.svg" alt="row edit img"  /></span>-->
+
+                  <!--<ng-container *ngIf="!item['save_state']">
+                    <span *ngIf="item['row_state'] == 'n'" class="g-status g-new"><img class="w-100" src="./assets/images/svg/grid-new.svg" alt="row Save img" /></span>
+                    <span *ngIf="item['row_state'] == 'e'" class="g-status edit "><img class="w-100" src="./assets/images/svg/edit.svg" alt="row Save img" /></span>
+                  </ng-container>-->
+
+                  <!--<span  class="g-status g-completed"><img class="w-100" src="./assets/images/gif/grid-new.gif" alt="row Save img" /></span>-->
+
+                </div>
+
+                <div class="td" *ngIf="!config.allow_edit && !config.allow_add && config.multi_row_select">
+                  <div class="cls-checkbox" (click)="checkbox_click($event,item,'mt-selected')">
+                    <i *ngIf="item['mt-selected']" class="bi bi-check-square-fill"></i>
+                    <i *ngIf="!item['mt-selected']" class="bi bi-square"></i>
+                  </div>
+                </div>
+
+                <ng-container *ngFor="let col of column_config;let c = index">
+
+                  <div class="td" [class.td_column]="!(!all_visible && !col['IsVisible'])" [hidden]="!all_visible && !col['IsVisible']" tabindex="0"
+                       [attr.row-index]="i" [attr.col-index]="col['ColumnOrder']" [attr.edit]="!!item[col.ColumnName + '_edit']"
+                       [class.highlighted]="config.editable_grid && (!col.IsEnable || item[col['ColumnName'] + '_disabled'])" [style.width.px]="col.width" style="width:130px;"
+                       [class.action-btn]="col.control == 'button'" (click)="click($event)" (focus)="focus($event)" (blur)="blur($event)"
+                       [class.required-field_validate]="item[col.ColumnName + '_syserror']">
+
+                    <div class="grid-error" [matTooltip]="item[col.ColumnName + '_syserror']" matTooltipClass="error-toltip"> </div>
+
+
+                    <div class="td-text">
+                      <ng-container *ngIf="!item[col.ColumnName + '_edit'];else edit">
+
+                        <ng-container [ngSwitch]="col.control">
+                          <ng-container *ngSwitchCase="'checkbox'">
+                            <div class="z-3 position-relative text-center cls-checkbox" (click)="checkbox_click($event,item,col.ColumnName)" >
+                              <i *ngIf="item[col.ColumnName]" class="bi bi-check-square-fill"></i>
+                              <i *ngIf="!item[col.ColumnName]" class="bi bi-square"></i>
+                            </div>
+                          </ng-container>
+
+                          <ng-container *ngSwitchCase="'radiobutton'">
+                            <div class="z-3 position-relative text-center cls-checkbox" (click)="radio_click($event,item,col.ColumnName)" >
+                              <i *ngIf="item[col.ColumnName]" class="bi bi-check-square-fill"></i>
+                              <i *ngIf="!item[col.ColumnName]" class="bi bi-square"></i>
+                            </div>
+                          </ng-container>
+
+                          <ng-container *ngSwitchCase="'button'">
+                            <!--<div class="cursor-pointer" [innerHtml]="col.control_content" (click)="custom_button_click(col,item)" style="position:relative; z-index:99;"></div>-->
+                            <button class="btn edit z-3 position-relative" [innerHtml]="col.control_content" (click)="custom_button_click(col,item)"></button>
+                            <!--<button class="btn edit" tabindex="0"  [matTooltip]="col.control_tooltip" (click)="custom_button_click(col,item)"></button>-->
+                          </ng-container>
+
+                          <ng-container *ngSwitchCase="'date'">
+                            {{item[col.ColumnName] | date:'dd/MM/yyyy'}}
+                          </ng-container>
+
+                          <ng-container *ngSwitchCase="'date_time'">
+                            {{item[col.ColumnName] | date:'dd/MM/yyyy hh:mm'}}
+                          </ng-container>
+
+
+                          <ng-container *ngSwitchDefault>
+                            {{item[col.ColumnName]}}
+                          </ng-container>
+                        </ng-container>
+                      </ng-container>
+                    </div>
+
+
+                    <ng-template #edit>
+                      <ng-container *ngTemplateOutlet="controls,context:{item:item,col:col}"></ng-container>
+                    </ng-template>
+                    <!--</div>-->
+                  </div>
+
+                </ng-container>
+
+              </div>
+
+            </ng-container>
+
+          </div>
+
+        </div>
+
+        <ng-container *ngIf="config.column_aggregate">
+          <div #footer class="tfooter overflow-hidden w-100 d-flex" (scroll)="foot_scroll($event)">
+
+            <div class="tr">
+
+              <div class="tf btn-group-drop"></div>
+              <div class="tf" *ngIf="!config.allow_edit && !config.allow_add && config.multi_row_select"></div>
+              <ng-container *ngFor="let col of column_config;let c = index">
+                <div class="tf" [attr.col-index]="col['ColumnOrder']" [hidden]="!all_visible && !col['IsVisible']" [class.action-btn]="col.control == 'action'"
+                     [style.width.px]="(col.width ? col.width : 130)" [matMenuTriggerFor]="sumValue">
+                  SUM - 100
+                </div>
+
+                <mat-menu #sumValue="matMenu">
+                  <div class="sum-value">
+                    <ul class="list-unstyled mb-0">
+                      <li class="d-flex justify-content-between align-items-center"><span>Sum</span> <div class="value-d sum"></div> <span>100</span> </li>
+                      <li class="d-flex justify-content-between align-items-center"><span>Average</span> <div class="value-d avg"></div> <span>100</span> </li>
+                      <li class="d-flex justify-content-between align-items-center"><span>Max</span> <div class="value-d max"></div> <span>100</span> </li>
+                      <li class="d-flex justify-content-between align-items-center"><span>Min</span> <div class="value-d min"></div> <span>100</span> </li>
+                    </ul>
+                  </div>
+
+                </mat-menu>
+
+              </ng-container>
+
+            </div>
+          </div>
+        </ng-container>
+
+      </ng-container>
+
+
+    </div>
+
+  </ng-container>
+
+</div>
+
+<ng-template #loading>
+  <!--<div class="alert alert-danger m-5 align-content-center w-100"><h4>Loading MtGrid, Please Wait..!</h4></div>-->
+</ng-template>
+
+<ng-template #no_data>
+  <div class="no-grid-data"><img class="w-100" src="./assets/images/no-grid-data.png" alt="No Grid Data" /></div>
+
+</ng-template>
+
+<ng-template #controls let-item="item" let-col="col">
+
+  <div class="w-100 position-relative h-100">
+
+    <!--<smart-form-fields-json [tab_index]="0" [form]="form"
+                            [is_grid]="true"
+                            [data_json]="item"
+                            [section]="config.section"
+                            [config]="col"
+                            (change_event)="change_cell_value($event)"></smart-form-fields-json>-->
+
+  </div>
+
+</ng-template>
+
+<ng-template #context_menu_template >
+  <div class="layout-drop-list d-block px-2 py-2" cdkMenu *ngIf="context_menu">
+    <!--<ng-container *ngFor="let item of context_menu">
+      <ng-container *ngIf="item['ActionType'] == 'default' && active_col_config && active_row_data">
+        <button class="layout-drop-list-item text-start" cdkMenuItem (click)="cmenu_click($event,item)">{{item['Caption']}}</button>
+      </ng-container>
+      <ng-container *ngIf="item['ActionType'] != 'default'">
+        <button class="layout-drop-list-item text-start" cdkMenuItem (click)="cmenu_click($event,item)">{{item['Caption']}}</button>
+      </ng-container>
+    </ng-container>-->
+  </div>
+</ng-template>

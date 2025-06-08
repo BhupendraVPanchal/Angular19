@@ -1,0 +1,17 @@
+<div class="alert-container example-alerts">
+  <div *ngIf="alert" class="alert alert-bg-daxa d-flex justify-content-between align-items-center"
+       [ngClass]="getAlertClass(alert.type)" role="alert">
+    {{ alert.message }}
+    
+    <div *ngIf="alert.showConfirm" class="alert-confirmation">
+      <span>Are you sure?</span>
+      <button (click)="confirmDismiss()">Yes</button>
+      <button (click)="cancelDismiss()">No</button>
+    </div>
+    
+    <button *ngIf="!alert.showConfirm" type="button" class="close bg-transparent p-0 border-none"
+            aria-label="Close" (click)="showConfirmation()">
+      <i class="ri-close-line"></i>
+    </button>
+  </div>
+</div>

@@ -1,0 +1,25 @@
+<div [formGroup]="formGroup" class="mb-25">
+  <label class="main-label d-block lh-1 text-black mb-5">{{Caption}}&nbsp;<span style="color:red" title="required" *ngIf="IsReq">*</span></label>
+  <mat-form-field >
+    <input matInput
+           [attr.autocomplete]="'off'"
+           [class]="customclassname"
+           [id]="field"
+           [name]="field"
+           [formControlName]="field"
+           [type]=" Isnum === 'password' && hide ? 'password':'text'"
+           [required]="IsReq"
+           (change)="smartTextValueChange($event)"
+           (blur)="smartTextBlur($event)"
+           [maxlength]="maxLen"
+           (keydown)="handleKeydown($event)" />
+           <button *ngIf="Isnum === 'password'" mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+            <span class="material-symbols-outlined">
+              {{hide ? 'visibility_off' : 'visibility'}}
+            </span>
+          </button>
+    <mat-error *ngIf="IsReq && hasError(field,'required')">{{Caption}} is required.</mat-error>
+    <mat-error *ngIf="IsPattern && hasError(field,'pattern')">{{pattern_msg}}</mat-error>
+    <mat-error *ngIf="max_min_msg && hasError(field,'maxminlength')">{{max_min_msg}}</mat-error>
+  </mat-form-field>
+</div>

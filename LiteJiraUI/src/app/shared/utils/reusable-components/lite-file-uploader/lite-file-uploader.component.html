@@ -1,0 +1,49 @@
+<div [formGroup]="formGroup" class="mb-25 file-uploader-container">
+  <label class="main-label d-block lh-1 text-black mb-5">Upload Files</label>
+
+  <div class="drop-zone" (dragover)="allowDrop($event)" (drop)="onDrop($event)">
+    <input type="file"
+           #fileInput
+           [accept]="accept"
+           [multiple]="multiple"
+           (change)="onFileSelected($event)"
+           hidden>
+    <button type="button" class="btn btn-primary" (click)="triggerFileInput()">
+      Choose Or Drag Files
+    </button>
+    <p *ngIf="filePreviews.length === 0">Drag & Drop files here or click to upload</p>
+  </div>
+
+  <div *ngIf="filePreviews.length > 0" class="file-preview-slider-container">
+    <button class="scroll-btn left" (click)="scrollLeft()">❮</button>
+    <div class="file-preview-slider" #slider>
+      <div *ngFor="let item of filePreviews; let i = index"
+           class="file-preview-item"
+           (dblclick)="openFileViewer(item.file)">
+        <!-- Image preview -->
+        <img *ngIf="item.file.type.startsWith('image/')"
+             [src]="item.preview"
+             class="preview-img">
+
+        <!-- Video preview -->
+        <video *ngIf="item.file.type.startsWith('video/')"
+               [src]="item.preview"
+               class="preview-img"
+               muted
+               playsinline></video>
+
+        <!-- Default file icon for others -->
+        <img *ngIf="!item.file.type.startsWith('image/') && !item.file.type.startsWith('video/')"
+             src="assets/file-icon.png"
+             class="preview-img">
+
+        <button type="button"
+                class="btn btn-sm btn-danger remove-btn"
+                (click)="removeFile(i)">
+          &times;
+        </button>
+      </div>
+    </div>
+    <button class="scroll-btn right" (click)="scrollRight()">❯</button>
+  </div>
+</div>

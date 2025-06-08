@@ -1,0 +1,37 @@
+<div class="login-container">
+  <div class="left-section">
+      <h1 class="heading-main">A few more clicks to create your account.</h1>
+  </div>
+  <div class="right-section">
+      <div class="sign-in-card">
+          <div class="logo">
+              <img src="./images/logo-icon.svg" alt="LiteJira Logo">
+          </div>
+          
+          <h2 class="title">Sign Up to LiteJira</h2>
+          <p class="subtitle">Create your account and start managing your projects</p>
+          
+          <form [formGroup]="authForm" >
+              <div class="form-group">
+                <app-lite-box field="name" Caption="Username" [Isnum]="'text'" [formGroup]="authForm" [IsReq]="true" [maxLen]="20"></app-lite-box>
+              </div>
+              <div class="form-group">
+                <app-lite-box field="email" Caption="Email" [Isnum]="'text'" [formGroup]="authForm" [IsReq]="true" [maxLen]="50"></app-lite-box>
+              </div>
+              <div class="form-group">
+                <app-lite-box field="password" Caption="Password" [Isnum]="'text'" [formGroup]="authForm" [IsReq]="true" [maxLen]="50" [minLen]="8"></app-lite-box>
+              </div>
+              <div class="form-group">
+                <app-lite-box field="confirmPassword" Caption="Confirm Password" [Isnum]="'password'" [formGroup]="authForm" [IsReq]="true" [maxLen]="50" [minLen]="8"></app-lite-box>
+              </div>
+              <div class="options">
+                  <mat-checkbox>I accept the <a href="javascript:void(0);" class="text-daxa">Terms and conditions</a></mat-checkbox>
+              </div>
+              <button type="submit" class="sign-in-btn"  (click)="onSubmit()"> 
+                  Sign Up
+              </button>
+          </form>
+      </div>
+  </div>
+</div>
+<!-- [disabled]="authForm.invalid" -->

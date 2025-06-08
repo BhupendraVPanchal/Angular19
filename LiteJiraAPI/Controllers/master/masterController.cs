@@ -1,0 +1,52 @@
+﻿using Helper_CL.custom;
+using LiteJiraAPI.Business_Logic.master;
+using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
+
+namespace LiteJiraAPI.Controllers.master
+{
+
+    public class masterController : BaseController
+    {
+        private master_bl _bl;
+        public masterController(master_bl _master)
+        {
+            _bl = _master;
+
+        }
+
+        [HttpPost]
+        public JObject get_companymaster_data(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_companymaster_data(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject add_update_companymaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.add_update_companymaster(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject get_companymaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_companymaster(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject delete_companymaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.delete_companymaster(data, t);
+        }
+
+
+
+    }
+}

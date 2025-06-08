@@ -1,0 +1,53 @@
+<div [formGroup]="formGroup" class="mb-25">
+  <label class="main-label d-block lh-1 text-black mb-5">
+    {{Caption}}&nbsp;<span style="color:red" title="required" *ngIf="IsReq">*</span>
+  </label>
+  <mat-form-field>
+    <ng-container *ngIf="selectionType === 'single'; else rangePicker">
+      <input matInput [matDatepicker]="picker" [formControlName]="field" [id]="field"
+             [name]="field" [required]="IsReq"
+             [min]="minDate" [max]="maxDate"
+             (dateChange)="onDateChange($event, field)" />
+      <!-- Move toggle inside the form field -->
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker [startAt]="minDate"></mat-datepicker>
+    </ng-container>
+
+    <ng-template #rangePicker>
+      <mat-date-range-input [formGroup]="formGroup" [rangePicker]="picker">
+        <input matStartDate [formControlName]="startField" placeholder="Start date"
+               [min]="minDate" [max]="maxDate" required="IsReq" />
+        <input matEndDate [formControlName]="endField" placeholder="End date"
+               [min]="minDate" [max]="maxDate" required="IsReq" />
+      </mat-date-range-input>
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-date-range-picker #picker></mat-date-range-picker>
+    </ng-template>
+
+    <mat-error *ngIf="IsReq && hasError(field, 'required')">{{ Caption }} is required.</mat-error>
+    <mat-error *ngIf="hasError(field, 'minDate')">Date cannot be before {{ minDate | date }}</mat-error>
+    <mat-error *ngIf="hasError(field, 'maxDate')">Date cannot be after {{ maxDate | date }}</mat-error>
+
+  </mat-form-field>
+</div>
+
+<!-- <lite-date-picker
+[formGroup]="formGroup"
+[field]="'singleDate'"
+[Caption]="'Select a Date'"
+[IsReq]="true"
+[selectionType]="'single'"
+[minDate]="minDate"
+[maxDate]="maxDate">
+</lite-date-picker> -->
+<!-- Date Range Picker -->
+<!-- <lite-date-picker
+[formGroup]="formGroup"
+[startField]="'startDate'"
+[endField]="'endDate'"
+[Caption]="'Select Date Range'"
+[IsReq]="true"
+[selectionType]="'range'"
+[minDate]="minDate"
+[maxDate]="maxDate">
+</lite-date-picker> -->
