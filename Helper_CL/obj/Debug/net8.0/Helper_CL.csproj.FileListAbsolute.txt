@@ -11,3 +11,16 @@ D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.dll
 D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\refint\Helper_CL.dll
 D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\Helper_CL.pdb
 D:\2025\LiteJira_V2\LiteJira\Helper_CL\obj\Debug\net8.0\ref\Helper_CL.dll
+D:\Demo_2\Angular19\Helper_CL\bin\Debug\net8.0\Helper_CL.deps.json
+D:\Demo_2\Angular19\Helper_CL\bin\Debug\net8.0\Helper_CL.dll
+D:\Demo_2\Angular19\Helper_CL\bin\Debug\net8.0\Helper_CL.pdb
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.csproj.AssemblyReference.cache
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.AssemblyInfoInputs.cache
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.AssemblyInfo.cs
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.csproj.CoreCompileInputs.cache
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.sourcelink.json
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.dll
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\refint\Helper_CL.dll
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\Helper_CL.pdb
+D:\Demo_2\Angular19\Helper_CL\obj\Debug\net8.0\ref\Helper_CL.dll
