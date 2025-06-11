@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\Demo_2\\Angular19\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\dashboard\\project-management\\project-management.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\dashboard\\project-management\\project-management.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\dashboard\\project-management\\project-management.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\dashboard\\project-management\\project-management.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\master-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\master-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,46 +78,81 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "project-management.component.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAzAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "master-routing.module.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-11T09:24:58.267Z",
+              "WhenOpened": "2025-06-11T14:31:23.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "project-management.component.html",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.html",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.html",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.html",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\dashboard\\project-management\\project-management.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-11T09:24:50.436Z",
+              "Title": "projectmaster-add-edit.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-11T14:30:17.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "LiteJiraAPI\\appsettings.Development.json",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\appsettings.Development.json",
-              "RelativeToolTip": "LiteJiraAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-11T09:23:37.649Z",
+              "Title": "projectmaster-add-edit.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-11T14:29:28.62Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "projectmaster.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
+              "ViewState": "AgIAALEAAAAAAAAAAAAQwMUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-11T14:28:26.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "lite-grid.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-11T14:28:08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "projectmaster.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-11T14:27:45.201Z",
+              "EditorCaption": ""
             }
           ]
         }

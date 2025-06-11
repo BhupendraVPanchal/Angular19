@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MasterRoutingModule } from './master-routing.module';
@@ -21,6 +21,7 @@ import { MasterService } from './master.service';
 
 @NgModule({
   declarations: [CompanyComponent, CompanyAddEditComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
     CommonModule,
     MasterRoutingModule,

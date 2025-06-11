@@ -32,6 +32,13 @@
             adp_projectmember_delete
         }
 
+        public enum projectmaster
+        {
+            adp_projectmaster_select,
+            adp_projectmaster_insert_or_update,
+            adp_projectmaster_read,
+            adp_projectmaster_delete
+        }
 
 
 

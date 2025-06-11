@@ -84,6 +84,39 @@ namespace LiteJiraAPI.Controllers.master
             return _bl.delete_projectmember(data, t);
         }
 
+        /// <summary>
+        /// 
+        [HttpPost]
+        public JObject get_projectmaster_data(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_projectmaster_data(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject add_update_projectmaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.add_update_projectmaster(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject get_projectmaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_projectmaster(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject delete_projectmaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.delete_projectmaster(data, t);
+        }
+
 
 
 
