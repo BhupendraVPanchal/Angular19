@@ -1452,23 +1452,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Narendra\\.nuget\\packages\\": {},
+    "C:\\Users\\bhupendrap\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PTWork\\Angular19Work\\Project1\\LiteJiraAPI\\LJAPI.csproj",
+      "projectUniqueName": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\LJAPI.csproj",
       "projectName": "LJAPI",
-      "projectPath": "D:\\PTWork\\Angular19Work\\Project1\\LiteJiraAPI\\LJAPI.csproj",
-      "packagesPath": "C:\\Users\\Narendra\\.nuget\\packages\\",
-      "outputPath": "D:\\PTWork\\Angular19Work\\Project1\\LiteJiraAPI\\obj\\",
+      "projectPath": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\LJAPI.csproj",
+      "packagesPath": "C:\\Users\\bhupendrap\\.nuget\\packages\\",
+      "outputPath": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Narendra\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bhupendrap\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1483,8 +1483,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\PTWork\\Angular19Work\\Project1\\Helper_CL\\Helper_CL.csproj": {
-              "projectPath": "D:\\PTWork\\Angular19Work\\Project1\\Helper_CL\\Helper_CL.csproj"
+            "D:\\Demo_2\\Angular19\\Helper_CL\\Helper_CL.csproj": {
+              "projectPath": "D:\\Demo_2\\Angular19\\Helper_CL\\Helper_CL.csproj"
             }
           }
         }
@@ -1499,7 +1499,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -1533,7 +1533,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
