@@ -1,4 +1,4 @@
-import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { MasterRoutingModule } from './master-routing.module';
@@ -21,7 +21,7 @@ import { MasterService } from './master.service';
 
 @NgModule({
   declarations: [CompanyComponent, CompanyAddEditComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   imports: [
     CommonModule,
     MasterRoutingModule,
@@ -37,7 +37,8 @@ import { MasterService } from './master.service';
     LiteCheckboxComponent,
     LiteSwitchComponent,
     LiteGridComponent,
-    M2GridDivComponent
+    M2GridDivComponent,
+    LiteGridComponent
   ],
   exports: [CompanyComponent, CompanyAddEditComponent],
   providers: [MasterService]
