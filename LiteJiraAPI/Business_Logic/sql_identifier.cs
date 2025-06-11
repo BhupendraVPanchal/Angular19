@@ -24,6 +24,15 @@
         }
 
 
+        public enum projectmember
+        {
+            adp_projectmember_select,
+            adp_projectmember_insert_or_update,
+            adp_projectmember_read,
+            adp_projectmember_delete
+        }
+
+
 
 
     }

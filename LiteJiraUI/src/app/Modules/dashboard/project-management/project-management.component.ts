@@ -7,7 +7,7 @@ import { TeamMembersComponent } from './team-members/team-members.component';
 
 @Component({
     selector: 'app-project-management',
-    imports: [ProjectsOverviewComponent, AllProjectsComponent, ProjectsProgressComponent, ToDoListComponent, TeamMembersComponent],
+    imports: [ProjectsOverviewComponent, AllProjectsComponent, ProjectsProgressComponent, TeamMembersComponent],
     templateUrl: './project-management.component.html',
     styleUrl: './project-management.component.scss'
 })

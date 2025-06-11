@@ -47,6 +47,45 @@ namespace LiteJiraAPI.Controllers.master
         }
 
 
+        /// <summary>
+        /// For Project Members
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
+
+        [HttpPost]
+        public JObject get_projectmember_data(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_projectmember_data(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject add_update_projectmember(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.add_update_projectmember(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject get_projectmember(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_projectmember(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject delete_projectmember(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.delete_projectmember(data, t);
+        }
+
+
+
 
     }
 }

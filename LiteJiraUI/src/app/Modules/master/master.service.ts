@@ -35,7 +35,25 @@ export class MasterService {
   }
 
 
-  // Project Master
+  // Project Member
+
+  public get_projectmember_data(query: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/get_projectmember_data', query);
+  }
+
+  public add_update_projectmember(query: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/add_update_projectmember', query);
+  }
+
+
+  public get_projectmember(query: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/get_projectmember', query);
+  }
+
+
+  public delete_projectmember(query: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/delete_projectmember', query);
+  }
 
   
 

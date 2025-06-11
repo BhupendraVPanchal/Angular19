@@ -24,6 +24,7 @@
     <PackageJsonDependenciesAngularSsr Condition="$(PackageJsonDependenciesAngularSsr) == ''">^19.1.5</PackageJsonDependenciesAngularSsr>
     <PackageJsonDependenciesIplabNgxFileUpload Condition="$(PackageJsonDependenciesIplabNgxFileUpload) == ''">^19.0.3</PackageJsonDependenciesIplabNgxFileUpload>
     <PackageJsonDependenciesTinymceTinymceAngular Condition="$(PackageJsonDependenciesTinymceTinymceAngular) == ''">^8.0.1</PackageJsonDependenciesTinymceTinymceAngular>
+    <PackageJsonDependenciesApexcharts Condition="$(PackageJsonDependenciesApexcharts) == ''">^4.7.0</PackageJsonDependenciesApexcharts>
     <PackageJsonDependenciesBootstrap Condition="$(PackageJsonDependenciesBootstrap) == ''">^5.3.3</PackageJsonDependenciesBootstrap>
     <PackageJsonDependenciesExpress Condition="$(PackageJsonDependenciesExpress) == ''">^4.18.2</PackageJsonDependenciesExpress>
     <PackageJsonDependenciesMaterialIcons Condition="$(PackageJsonDependenciesMaterialIcons) == ''">^1.13.13</PackageJsonDependenciesMaterialIcons>
