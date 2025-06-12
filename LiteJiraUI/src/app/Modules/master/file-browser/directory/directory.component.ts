@@ -5,9 +5,9 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-directory',
+  standalone: false,
   templateUrl: './directory.component.html',
-  styleUrls: ['./directory.component.css'],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
+  styleUrls: ['./directory.component.css']
 })
 export class DirectoryComponent implements OnInit  {
   

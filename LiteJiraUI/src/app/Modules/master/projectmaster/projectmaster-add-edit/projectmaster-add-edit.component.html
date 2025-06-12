@@ -16,28 +16,26 @@
           <form [formGroup]="entity_formgroup">
             <div class="row">
               <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="companyid" Caption="companyid" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+                <lite-ddl [formGroup]="entity_formgroup" field="companyid" [Caption]="'Company'" [IsReq]="true" [options]="company_data">
+                </lite-ddl>
               </div>
               <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="projectname" Caption="projectname" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+                <app-lite-box [formGroup]="entity_formgroup" field="projectname" Caption="Project Name" [Isnum]="'text'" [IsReq]="true"></app-lite-box>
               </div>
               <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="alias" Caption="alias" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+                <app-lite-box [formGroup]="entity_formgroup" field="alias" Caption="Alias" [Isnum]="'text'" [IsReq]="true" [maxLen]="5"></app-lite-box>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <lite-textarea [formGroup]="entity_formgroup" field="details" [IsReq]="true" Caption="Description"></lite-textarea>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <lite-date-picker [formGroup]="entity_formgroup" field="startdate" Caption="Start Date"  [IsReq]="true" ></lite-date-picker>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <app-lite-file-uploader [formGroup]="entity_formgroup" field="profile_image" [multiple]="false" accept="image/*"></app-lite-file-uploader>
               </div>
               <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="profile_image" Caption="profile_image" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="details" Caption="details" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="startdate" Caption="startdate" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="enddate" Caption="enddate" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
-              </div>
-              <div class="col-md-4 col-sm-6">
-                <app-lite-box [formGroup]="entity_formgroup" field="status" Caption="status" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+                <lite-switch [formGroup]="entity_formgroup" field="status" Caption="Active/InActive"></lite-switch>
               </div>
               <!-- Left Side: Company Details -->
             </div>

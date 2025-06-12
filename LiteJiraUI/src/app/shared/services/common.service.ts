@@ -77,6 +77,10 @@ export class CommonService {
     return clonedForm;
   }
 
+  public upload_files_to_directory(item: any, path: string): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + 'Directory/upload_files?path=' + path, item);
+  }
+
   public getDirectoryStructureget(): Observable<any> {
     return this.http.get(this.app_settings.MainApiPath + 'Directory/structure');
   }

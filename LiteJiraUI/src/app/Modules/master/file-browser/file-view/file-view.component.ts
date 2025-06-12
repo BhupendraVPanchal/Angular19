@@ -4,9 +4,10 @@ import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 
 @Component({
   selector: 'file-view',
+  standalone: false,
   templateUrl: './file-view.component.html',
-  styleUrls: ['./file-view.component.css'],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
+  styleUrls: ['./file-view.component.css']
+  
 })
 export class FileViewComponent implements OnInit {
   @Input() fileUrl :any

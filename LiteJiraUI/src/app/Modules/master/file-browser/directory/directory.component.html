@@ -1,6 +1,9 @@
 <div class="ms-3 mb-2">
   <div class="d-flex align-items-center" (click)="toggleCollapse()" style="cursor: pointer;">
     <div class="m-2"><i class="bi bi-download" (click)="downlodFile(node.relativePath)"></i></div>
+    <div class="m-2">
+      <button type="button" (click)="downlodFile(node.relativePath)">Downdload</button>
+    </div>
     <div><i class="bi" [ngClass]="collapsed ? 'bi-folder' : 'bi-folder-fill'"></i></div>
 
     <strong class="ms-2">{{ node.name }}</strong>
@@ -18,7 +21,10 @@
 
     <ul class="list-unstyled">
       <li *ngFor="let file of filteredFiles" class="d-flex align-items-center mb-1">
-        <div class="m-2"><i class="bi bi-download" (click)="downlodFile(node.relativePath)"></i></div>
+        <div class="m-2"><i class="bi bi-download" (click)="downlodFile(node.relativePath)">Downdload</i></div>
+        <div class="m-2">
+          <button type="button" (click)="downlodFile(node.relativePath)">Downdload</button>
+        </div>
         <div><i class="bi me-2" [ngClass]="isImage(file.name) ? 'bi-image' : 'bi-file-earmark'" (click)="previewFile(node.relativePath ,file.type)"></i></div>
         <div *ngIf="!isImage(file.name)">
           <img src="./assets/images/no-record.png"

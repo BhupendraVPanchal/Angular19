@@ -1,12 +1,1773 @@
 {
   "Version": 1,
-  "Hash": "mGx5nG62n28Ax40X5rCL2lyPMfCVKVrkKb22vVjpC1Y=",
+  "Hash": "M9J7lAR54cGQpdCRfRWV1twZ9qW3Atfn90/rGDPr49E=",
   "Source": "LJAPI",
   "BasePath": "_content/LJAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "LJAPI\\wwwroot",
+      "Source": "LJAPI",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\file_example_MP4_640_3MG.mp4",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/files/file_example_MP4_640_3MG#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u0cq9m3nxk",
+      "Integrity": "XnC5atJ9yFgUJL5wae6d6NqTiLcW5v4hPYg4Xxm6+Ao=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\files\\file_example_MP4_640_3MG.mp4"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\file_example_WEBM_1920_3_7MB.webm",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/files/file_example_WEBM_1920_3_7MB#[.{fingerprint}]?.webm",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wtc33fmmfx",
+      "Integrity": "TD2J9BMKY0m6sqa5xXBmh5yVyH+WbKX/S4xonkg0GEs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\files\\file_example_WEBM_1920_3_7MB.webm"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\Screenshot (1).png",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/files/Screenshot (1)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6e0mu7blkn",
+      "Integrity": "fvWrvi43AJ1ObWYcF8JyIslUTxt3A2HIRcxHFtiTnN8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\files\\Screenshot (1).png"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\Screenshot (29).png",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/files/Screenshot (29)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7s34i1omhw",
+      "Integrity": "J+KeZ61wp+EoDATYi3fyqlgOeqiBNidYbM4uk/y7qBo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\files\\Screenshot (29).png"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\agro.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/mobile/agro#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3n29pwq9xm",
+      "Integrity": "n4689a/EtMkdUOAnc+QS5O5hhELq8MExUADt/nNQFuM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\mobile\\agro.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/mobile/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\mobile\\DetailPage.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (20).png",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/mobile/Screenshot (20)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ny72lr3a9",
+      "Integrity": "5C6YxUeiu7zk8WSlYHRyfrfPFEGva8oSUrg8hige7mc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (20).png"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (3).png",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/mobile/Screenshot (3)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7n0m5y8w9z",
+      "Integrity": "PebwG7tToRrI7l5aVBhgL21MhCgFUNL+KrDeUpj/Rbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (3).png"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\bmw.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/web/bmw#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "igmq5j8anu",
+      "Integrity": "MkXjcThjDthr2UwaDAnLdpZYIJWnpYf6H9myitFyNn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\web\\bmw.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/web/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\web\\DetailPage.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\Screenshot (18).png",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/web/Screenshot (18)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "b8r6ia8osl",
+      "Integrity": "pfaEFb9DOWb1GQU2pM0VP20lrguN+PW7FBUKTs6AcPo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\web\\Screenshot (18).png"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\Screenshot (2).png",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/1/web/Screenshot (2)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "27alm6gylo",
+      "Integrity": "3lQt3ZaJUyBj2fUg1RIoW0St9pI3Dq/NXD4LWY69VwI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\1\\web\\Screenshot (2).png"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\mobile\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/100/6/mobile/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\100\\6\\mobile\\DetailPage.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\web\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/100/6/web/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\100\\6\\web\\DetailPage.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\files\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/6/files/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\6\\files\\DetailPage.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\mobile\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/6/mobile/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\6\\mobile\\DetailPage.jpg"
+    },
+    {
+      "Identity": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\web\\DetailPage.jpg",
+      "SourceId": "LJAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\",
+      "BasePath": "_content/LJAPI",
+      "RelativePath": "uploads/sections/6/web/DetailPage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x9vxtsjyzu",
+      "Integrity": "awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\6\\web\\DetailPage.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/sections/1/files/file_example_MP4_640_3MG.mp4",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\file_example_MP4_640_3MG.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3114374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XnC5atJ9yFgUJL5wae6d6NqTiLcW5v4hPYg4Xxm6+Ao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XnC5atJ9yFgUJL5wae6d6NqTiLcW5v4hPYg4Xxm6+Ao="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/file_example_MP4_640_3MG.u0cq9m3nxk.mp4",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\file_example_MP4_640_3MG.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3114374"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XnC5atJ9yFgUJL5wae6d6NqTiLcW5v4hPYg4Xxm6+Ao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u0cq9m3nxk"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/files/file_example_MP4_640_3MG.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XnC5atJ9yFgUJL5wae6d6NqTiLcW5v4hPYg4Xxm6+Ao="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/file_example_WEBM_1920_3_7MB.webm",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\file_example_WEBM_1920_3_7MB.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3667214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TD2J9BMKY0m6sqa5xXBmh5yVyH+WbKX/S4xonkg0GEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TD2J9BMKY0m6sqa5xXBmh5yVyH+WbKX/S4xonkg0GEs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/file_example_WEBM_1920_3_7MB.wtc33fmmfx.webm",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\file_example_WEBM_1920_3_7MB.webm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3667214"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/webm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TD2J9BMKY0m6sqa5xXBmh5yVyH+WbKX/S4xonkg0GEs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:45:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wtc33fmmfx"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/files/file_example_WEBM_1920_3_7MB.webm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TD2J9BMKY0m6sqa5xXBmh5yVyH+WbKX/S4xonkg0GEs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/Screenshot (1).6e0mu7blkn.png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\Screenshot (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fvWrvi43AJ1ObWYcF8JyIslUTxt3A2HIRcxHFtiTnN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6e0mu7blkn"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/files/Screenshot (1).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fvWrvi43AJ1ObWYcF8JyIslUTxt3A2HIRcxHFtiTnN8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/Screenshot (1).png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\Screenshot (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "210474"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fvWrvi43AJ1ObWYcF8JyIslUTxt3A2HIRcxHFtiTnN8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fvWrvi43AJ1ObWYcF8JyIslUTxt3A2HIRcxHFtiTnN8="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/Screenshot (29).7s34i1omhw.png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\Screenshot (29).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "392508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J+KeZ61wp+EoDATYi3fyqlgOeqiBNidYbM4uk/y7qBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7s34i1omhw"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/files/Screenshot (29).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+KeZ61wp+EoDATYi3fyqlgOeqiBNidYbM4uk/y7qBo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/files/Screenshot (29).png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\files\\Screenshot (29).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "392508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J+KeZ61wp+EoDATYi3fyqlgOeqiBNidYbM4uk/y7qBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J+KeZ61wp+EoDATYi3fyqlgOeqiBNidYbM4uk/y7qBo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/agro.3n29pwq9xm.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\agro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n4689a/EtMkdUOAnc+QS5O5hhELq8MExUADt/nNQFuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3n29pwq9xm"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/mobile/agro.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-n4689a/EtMkdUOAnc+QS5O5hhELq8MExUADt/nNQFuM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/agro.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\agro.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152919"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"n4689a/EtMkdUOAnc+QS5O5hhELq8MExUADt/nNQFuM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-n4689a/EtMkdUOAnc+QS5O5hhELq8MExUADt/nNQFuM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/mobile/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/Screenshot (20).0ny72lr3a9.png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (20).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "303270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5C6YxUeiu7zk8WSlYHRyfrfPFEGva8oSUrg8hige7mc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ny72lr3a9"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/mobile/Screenshot (20).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5C6YxUeiu7zk8WSlYHRyfrfPFEGva8oSUrg8hige7mc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/Screenshot (20).png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (20).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "303270"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5C6YxUeiu7zk8WSlYHRyfrfPFEGva8oSUrg8hige7mc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5C6YxUeiu7zk8WSlYHRyfrfPFEGva8oSUrg8hige7mc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/Screenshot (3).7n0m5y8w9z.png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (3).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PebwG7tToRrI7l5aVBhgL21MhCgFUNL+KrDeUpj/Rbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7n0m5y8w9z"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/mobile/Screenshot (3).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PebwG7tToRrI7l5aVBhgL21MhCgFUNL+KrDeUpj/Rbc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/mobile/Screenshot (3).png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\mobile\\Screenshot (3).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135661"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PebwG7tToRrI7l5aVBhgL21MhCgFUNL+KrDeUpj/Rbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PebwG7tToRrI7l5aVBhgL21MhCgFUNL+KrDeUpj/Rbc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/bmw.igmq5j8anu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\bmw.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkXjcThjDthr2UwaDAnLdpZYIJWnpYf6H9myitFyNn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "igmq5j8anu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/web/bmw.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkXjcThjDthr2UwaDAnLdpZYIJWnpYf6H9myitFyNn4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/bmw.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\bmw.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MkXjcThjDthr2UwaDAnLdpZYIJWnpYf6H9myitFyNn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Mar 2025 08:47:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MkXjcThjDthr2UwaDAnLdpZYIJWnpYf6H9myitFyNn4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:44:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/web/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/Screenshot (18).b8r6ia8osl.png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\Screenshot (18).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pfaEFb9DOWb1GQU2pM0VP20lrguN+PW7FBUKTs6AcPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b8r6ia8osl"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/web/Screenshot (18).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pfaEFb9DOWb1GQU2pM0VP20lrguN+PW7FBUKTs6AcPo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/Screenshot (18).png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\Screenshot (18).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "230008"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pfaEFb9DOWb1GQU2pM0VP20lrguN+PW7FBUKTs6AcPo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:57:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pfaEFb9DOWb1GQU2pM0VP20lrguN+PW7FBUKTs6AcPo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/Screenshot (2).27alm6gylo.png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\Screenshot (2).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3lQt3ZaJUyBj2fUg1RIoW0St9pI3Dq/NXD4LWY69VwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "27alm6gylo"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/1/web/Screenshot (2).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3lQt3ZaJUyBj2fUg1RIoW0St9pI3Dq/NXD4LWY69VwI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/1/web/Screenshot (2).png",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\1\\web\\Screenshot (2).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "120413"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3lQt3ZaJUyBj2fUg1RIoW0St9pI3Dq/NXD4LWY69VwI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 18 Jun 2024 08:59:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3lQt3ZaJUyBj2fUg1RIoW0St9pI3Dq/NXD4LWY69VwI="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/100/6/mobile/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\mobile\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 07:39:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/100/6/mobile/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\mobile\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 07:39:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/100/6/mobile/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/100/6/web/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\web\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 07:39:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/100/6/web/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\web\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 07:39:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/100/6/web/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/6/files/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\files\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:45:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/6/files/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\files\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:45:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/6/files/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/6/mobile/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\mobile\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:51:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/6/mobile/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\mobile\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:51:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/6/mobile/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/6/web/DetailPage.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\web\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:51:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/sections/6/web/DetailPage.x9vxtsjyzu.jpg",
+      "AssetFile": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\6\\web\\DetailPage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "701248"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 17 Dec 2024 06:51:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x9vxtsjyzu"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/sections/6/web/DetailPage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awaJvXfFF4/uAjFDMrY+z7HuKJbvUQGFeD5PccPxRGY="
+        }
+      ]
+    }
+  ]
 }

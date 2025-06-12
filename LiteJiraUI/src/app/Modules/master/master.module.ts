@@ -19,10 +19,14 @@ import { M2GridDivComponent } from '../../shared/utils/reusable-components/m2-gr
 import { MasterService } from './master.service';
 import { ProjectmasterComponent } from './projectmaster/projectmaster.component';
 import { ProjectmasterAddEditComponent } from './projectmaster/projectmaster-add-edit/projectmaster-add-edit.component';
+import { FileBrowserComponent } from './file-browser/file-browser.component';
+import { DirectoryComponent } from './file-browser/directory/directory.component';
+import { FileViewComponent } from './file-browser/file-view/file-view.component';
+import { LiteFileUploader2Component } from '../../shared/utils/reusable-components/lite-file-uploader2/lite-file-uploader2.component';
 
 
 @NgModule({
-  declarations: [CompanyComponent, CompanyAddEditComponent, ProjectmasterComponent, ProjectmasterAddEditComponent],
+  declarations: [CompanyComponent, CompanyAddEditComponent, ProjectmasterComponent, ProjectmasterAddEditComponent, FileBrowserComponent, DirectoryComponent, FileViewComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   imports: [
     CommonModule,
@@ -31,6 +35,7 @@ import { ProjectmasterAddEditComponent } from './projectmaster/projectmaster-add
     LiteDdlComponent,
     LiteEditorComponent,
     LiteFileUploaderComponent,
+    LiteFileUploader2Component,
     LiteDatePickerComponent,
     LiteTextareaComponent,
     LiteDdlComponent,

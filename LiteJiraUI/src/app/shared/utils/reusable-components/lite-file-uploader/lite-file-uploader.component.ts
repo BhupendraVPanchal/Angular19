@@ -19,8 +19,10 @@ export class LiteFileUploaderComponent implements OnInit {
   @Input() field!: string;
   @Input() multiple: boolean = false;
   @Input() accept: string = '';
-  @Input() maxSizeMB: number = 5; 
+  @Input() maxSizeMB: number = 5;
+  @Input() previewurls: any[] =[]; 
   @Output() fileChangeEvent: EventEmitter<File[]> = new EventEmitter<File[]>();
+  @Output() DeleteFile: EventEmitter<any> = new EventEmitter<any>();
   uploadedFiles: File[] = [];
   filePreviews: { file: File; preview: SafeUrl }[] = [];
   errorMessage: string = '';
@@ -89,6 +91,7 @@ export class LiteFileUploaderComponent implements OnInit {
     this.uploadedFiles.splice(index, 1);
     this.filePreviews.splice(index, 1);
     this.formGroup.controls[this.field].setValue(this.uploadedFiles);
+    this.fileChangeEvent.emit(this.uploadedFiles);
   }
 
   openFileViewer(file: File): void {

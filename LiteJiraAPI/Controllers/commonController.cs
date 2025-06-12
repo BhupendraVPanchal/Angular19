@@ -82,5 +82,33 @@ namespace LJAPI.Controllers
             return RtnObj;
 
         }
+
+
+        [HttpPost]
+        public JObject updatestatus_with_reason_by_table([FromBody] JObject data)
+        {
+            JObject RtnObj = new JObject();
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            try
+            {
+
+                RtnObj["Data"] = _bl.updatestatus_with_reason_by_table(data, t);
+            }
+            catch (Exception ex)
+            {
+
+                if (ex.Message.ToString().Contains("UDE-"))
+                {
+                    RtnObj["Error"] = ex.Message.ToString().Replace("UDE-", "");
+                }
+                else
+                {
+                    throw;
+                }
+            }
+            return RtnObj;
+
+        }
+
     }
 }

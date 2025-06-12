@@ -23,11 +23,13 @@ export class ProjectmasterAddEditComponent implements OnInit {
   public entity_code: number = 0;
   public file_server_path: string;
 
-  public form_title: string = "projectmaster";
+  public form_title: string = "Add Project";
   public errormessage: string = "";
   public isnew: boolean = true;
 
   classApplied = true;
+
+  public company_data: any[]=[];
   constructor(
     private fb: FormBuilder,
     @Inject(MAT_DIALOG_DATA) public data: any,
@@ -89,6 +91,20 @@ export class ProjectmasterAddEditComponent implements OnInit {
           }
         });
     }
+    this.load_utility_data();
+  }
+
+  public load_utility_data(): void {
+
+
+    this._masterserviceobj.get_companymaster_help({})
+      .subscribe(RtnData => {
+        this.company_data = JSON.parse(JSON.stringify(RtnData.data));
+      }, err => {
+
+      });
+
+
   }
 
   close_dialog(obj: any): void {

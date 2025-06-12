@@ -77,6 +77,21 @@ namespace LiteJiraAPI.Business_Logic.master
             }
         }
 
+        public JObject get_companymaster_help(JObject data, _token t)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                dt = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.companymaster.adp_get_companymaster_help.ToString()), data, para, null);
+                return dt.ToJObject();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         // For projectmember
         public JObject get_projectmember_data(JObject data, _token t)
         {

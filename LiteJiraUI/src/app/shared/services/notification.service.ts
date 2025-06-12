@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { AlertType } from '../utils/alerts/alert-types';
 
 @Injectable({
   providedIn: 'root'
@@ -17,6 +18,8 @@ export class NotificationService {
       duration: duration,
     });
   }
+
+  
 
 
 

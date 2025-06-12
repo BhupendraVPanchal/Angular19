@@ -1,13 +1,13 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA, OnInit } from '@angular/core';
 import { CommonService } from '../../../shared/services/common.service';
 import { AppSettings } from '../../../appSettings';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-file-browser',
+  standalone: false,
   templateUrl: './file-browser.component.html',
-  styleUrls: ['./file-browser.component.css'],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA]
-
+  styleUrls: ['./file-browser.component.css']
 })
 export class FileBrowserComponent implements OnInit {
   structure: any;

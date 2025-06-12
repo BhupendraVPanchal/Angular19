@@ -31,7 +31,11 @@ export class CompanyAddEditComponent implements OnInit {
   public countryList: any[] = [];
   public stateList: any[] = [];
   public cityList: any[] = [];
+  public logoList: any[] = [];
   classApplied = true;
+
+  public company_logo_src: string = "";
+  public company_logo: File = null;
   constructor(
     private fb: FormBuilder,
     @Inject(MAT_DIALOG_DATA) public data: any,
@@ -48,7 +52,7 @@ export class CompanyAddEditComponent implements OnInit {
   ngOnInit(): void {
     if (isPlatformBrowser(this.platformId)) {
       this.init();
-      
+
     }
   }
 
@@ -111,7 +115,7 @@ export class CompanyAddEditComponent implements OnInit {
     });
   }
 
-  
+
   ngOnDestroy(): void {
   }
 
@@ -125,8 +129,9 @@ export class CompanyAddEditComponent implements OnInit {
             this._notificationservice.showToast('record updated successfully!');
             //this.toastr.success('record updated successfully!');
           }
-          this.entity_code = data.data[0].attribute_code;
+          this.entity_code = data.data[0].companyid;
           snd_data.attribute_code = this.entity_code;
+          this.upload_file_to_ftp(this.entity_code);
           this.close_dialog(null);
           this._loader.hide();
         }, error: (err_response) => {
@@ -182,5 +187,17 @@ export class CompanyAddEditComponent implements OnInit {
     }
   }
 
+  public delete_file_from_uploader(flag: any) {
+    this.data.payload["logo"] = null;
+  }
+  public get_file_from_uploader(event: any): void {
+    this.company_logo = event;
+  }
+
+  public upload_file_to_ftp(code: number) {
+    const formData: FormData = new FormData();
+    formData.append('Files', this.company_logo);
+    this._commonservice.upload_files_to_directory(formData, "company/" + String(code)).subscribe();
+  }
 
 }

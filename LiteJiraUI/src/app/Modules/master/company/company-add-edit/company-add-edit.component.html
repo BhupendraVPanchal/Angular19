@@ -45,7 +45,11 @@
                 <app-lite-box [formGroup]="entity_formgroup" field="contactno" [IsBlockAllChar]="true" Caption="Business Contact" [datatype]="'text'" [IsReq]="true" [maxLen]="50"></app-lite-box>
               </div>
               <div class="col-md-8 col-sm-6">
-                <app-lite-file-uploader [formGroup]="entity_formgroup" field="logo" [multiple]="false" accept="image/*"></app-lite-file-uploader>
+                <app-lite-file-uploader2 [formGroup]="entity_formgroup" Caption="Company Logo" field="logo"
+                                         (GetFileEvent)="get_file_from_uploader($event)" (DeleteFile)="delete_file_from_uploader('D')" BannerViewURL="{{company_logo_src}}"
+                                         [IsReq]="true">
+
+                </app-lite-file-uploader2>
               </div>
               <div class="col-md-4 col-sm-6">
                 <lite-switch [formGroup]="entity_formgroup" field="is_locked" Caption="Active/InActive"></lite-switch>

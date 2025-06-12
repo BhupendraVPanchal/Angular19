@@ -1,0 +1,94 @@
+.file-uploader-container {
+  width: 100%;
+  padding: 10px;
+
+  .drop-zone {
+    border: 2px dashed #aaa;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #f1f1f1;
+    }
+  }
+
+  .file-preview-slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 10px;
+
+    .scroll-btn {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      font-size: 18px;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 50%;
+      z-index: 10;
+
+      &.left {
+        position: absolute;
+        left: 0;
+      }
+
+      &.right {
+        position: absolute;
+        right: 0;
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+      }
+    }
+  }
+
+  .file-preview-slider {
+    display: flex;
+    gap: 8px;
+    /*overflow-x: auto;*/
+    scroll-behavior: smooth;
+    padding: 5px;
+    width: 90%;
+    white-space: nowrap;
+    scrollbar-width: thin;
+    scrollbar-color: #aaa transparent;
+  }
+
+  .file-preview-item {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    flex: 0 0 auto; /* Prevents shrinking */
+    cursor: pointer;
+
+    .preview-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .remove-btn {
+      position: absolute;
+      top: 0;
+      right: 0;
+      background-color: rgba(255, 0, 0, 0.7);
+      border: none;
+      color: white;
+      font-size: 12px;
+      padding: 2px 4px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+
+  mat-error {
+    color: red;
+    margin-top: 5px;
+  }
+}

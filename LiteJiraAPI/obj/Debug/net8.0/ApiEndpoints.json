@@ -82,6 +82,47 @@
     ]
   },
   {
+    "ContainingType": "LJAPI.Controllers.commonController",
+    "Method": "updatestatus_with_reason_by_table",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "LiteJiraAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "api/{controller}/{action}/{id}",
@@ -366,6 +407,47 @@
   {
     "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
     "Method": "delete_companymaster",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "get_companymaster_help",
     "RelativePath": "api/{controller}/{action}/{id}",
     "HttpMethod": "POST",
     "IsController": true,
@@ -881,5 +963,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.DirectoryController",
+    "Method": "UploadFiles",
+    "RelativePath": "api/Directory/upload_files",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "path",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

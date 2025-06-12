@@ -71,6 +71,7 @@ D:\2025\LiteJira_V2\LiteJira\LiteJiraAPI\obj\Debug\net8.0\LJAPI.genruntimeconfig
 D:\2025\LiteJira_V2\LiteJira\LiteJiraAPI\obj\Debug\net8.0\ref\LJAPI.dll
 D:\Demo_2\Angular19\LiteJiraAPI\bin\Debug\net8.0\appsettings.Development.json
 D:\Demo_2\Angular19\LiteJiraAPI\bin\Debug\net8.0\appsettings.json
+D:\Demo_2\Angular19\LiteJiraAPI\bin\Debug\net8.0\LJAPI.staticwebassets.runtime.json
 D:\Demo_2\Angular19\LiteJiraAPI\bin\Debug\net8.0\LJAPI.staticwebassets.endpoints.json
 D:\Demo_2\Angular19\LiteJiraAPI\bin\Debug\net8.0\LJAPI.exe
 D:\Demo_2\Angular19\LiteJiraAPI\bin\Debug\net8.0\LJAPI.deps.json

@@ -20,7 +20,8 @@
             adp_companymaster_select,
             adp_companymaster_insert_or_update,
             adp_companymaster_read,
-            adp_companymaster_delete
+            adp_companymaster_delete,
+            adp_get_companymaster_help
         }
 
 

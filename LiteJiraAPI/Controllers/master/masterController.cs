@@ -46,6 +46,14 @@ namespace LiteJiraAPI.Controllers.master
             return _bl.delete_companymaster(data, t);
         }
 
+        [HttpPost]
+        public JObject get_companymaster_help(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_companymaster_help(data, t);
+        }
+
+
 
         /// <summary>
         /// For Project Members

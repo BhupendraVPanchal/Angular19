@@ -34,6 +34,11 @@ export class MasterService {
     return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/delete_companymaster', query);
   }
 
+  public get_companymaster_help(query: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/get_companymaster_help', query);
+  }
+  
+
 
   // Project Member
 

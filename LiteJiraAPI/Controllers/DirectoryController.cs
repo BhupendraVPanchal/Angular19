@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 using System.IO.Compression;
 using System.Net;
@@ -7,6 +8,7 @@ namespace LJAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class DirectoryController : ControllerBase
     {
         private readonly IWebHostEnvironment _env;
@@ -14,6 +16,48 @@ namespace LJAPI.Controllers
         public DirectoryController(IWebHostEnvironment env)
         {
             _env = env;
+        }
+
+        [AllowAnonymous]
+        [HttpPost("upload_files")]
+        public JObject UploadFiles(string path)
+        {
+            try
+            {
+                JObject RtnObject = new JObject();
+
+                path = "wwwroot\\uploads\\" + path;
+
+                if (!Directory.Exists(path))
+                {
+                    Directory.CreateDirectory(path);
+                }
+
+                var files = Request.Form.Files;
+
+                if (files != null && files.Count > 0)
+                {
+                    foreach (var file in files)
+                    {
+                        if (file.Length > 0)
+                        {
+                            var fileName = Path.GetFileName(file.FileName);
+                            var filePath = Path.Combine(_env.ContentRootPath, path, fileName);
+
+                            using (var fileStream = new FileStream(filePath, FileMode.Create))
+                            {
+                                file.CopyTo(fileStream);
+                            }
+                        }
+                    }
+                }
+
+                return RtnObject;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         [HttpGet("structure")]

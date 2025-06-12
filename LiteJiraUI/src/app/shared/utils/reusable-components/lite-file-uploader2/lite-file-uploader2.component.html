@@ -1,0 +1,45 @@
+<div [formGroup]="formGroup" class="mb-25 file-uploader-container">
+  <label class="main-label d-block lh-1 text-black mb-5" [ngClass]="{'bold-label': IsReq}">{{Caption}}<span *ngIf="IsReq">*</span></label>
+  <div class="drop-zone" (dragover)="allowDrop($event)" (drop)="onDrop($event)">
+    <input type="file"
+           style="display: none"
+           [id]="field"
+           [name]="field"
+           [required]="IsReq"
+           (change)="handleFile($event)"
+           [accept]="accept"
+           [value]="fileInputValue"
+           #fileInput />
+
+    <button class="btn btn-primary" (click)="triggerFile()">
+      Choose Or Drag Files
+    </button>
+
+    <p *ngIf="BannerViewURL.length === 0">Drag & Drop files here or click to upload</p>
+
+    <div class="attachment-text">
+      <ng-container *ngIf="BannerViewURL">
+        <!-- If it's an image -->
+        <img *ngIf="getFileTypeFromName(fileInputValue) === 'image' || getFileTypeFromName(BannerViewURL) === 'image'"
+             [src]="BannerViewURL"
+             alt="Uploaded image preview"
+             style="max-width: 200px; max-height: 200px; margin-top: 1em;" />
+
+        <!-- If it's a video -->
+        <video *ngIf="getFileTypeFromName(fileInputValue) === 'video' || getFileTypeFromName(BannerViewURL) === 'video'"
+               [src]="BannerViewURL"
+               alt="Uploaded Video preview"
+               controls
+               style="max-width: 150px; max-height: 150px; margin-top: 1em;"></video>
+      </ng-container>
+
+      <span style="margin: 1em">{{ fileInputValue }}</span>
+
+      <div class="delete-attachment" *ngIf="BannerViewURL != '' ">
+        <button mat-stroked-button (click)="Delete()">
+          <i class="bi bi-trash"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
