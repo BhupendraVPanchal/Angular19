@@ -3,100 +3,84 @@
   "WorkspaceRootPath": "D:\\Demo_2\\Angular19\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\controllers\\directorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\controllers\\directorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-gridv2\\lite-gridv2.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-gridv2\\lite-gridv2.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\file-view\\file-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\file-view\\file-view.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\authantication\\logout\\logout.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\authantication\\logout\\logout.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-file-uploader\\lite-file-uploader.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-file-uploader\\lite-file-uploader.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\_utilities.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\_utilities.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\_typography.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\_typography.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\_ui-kit.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\_ui-kit.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\controllers\\master\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\controllers\\master\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\controllers\\master\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\controllers\\master\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\file-browser.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\file-browser.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\master-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\master-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\file-browser.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\file-browser.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\file-view\\file-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\file-view\\file-view.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\file-view\\file-view.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\file-view\\file-view.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\appsettings.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\appsettings.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\master.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\master.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\services\\common.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\services\\common.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\master.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\master.service.spec.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\file-browser\\directory\\directory.component.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\company\\company.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\company\\company.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\company\\company.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\company\\company.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\prm\\all-projects\\all-projects.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\prm\\all-projects\\all-projects.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\company\\company.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\company\\company.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\prm\\to-do-list\\to-do-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\prm\\to-do-list\\to-do-list.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\prm\\all-projects\\all-projects.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\prm\\all-projects\\all-projects.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -151,310 +135,262 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "projectmaster.component.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.ts",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACsAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:56:01.132Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "lite-grid.component.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.scss",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:16:46.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "lite-grid.component.html",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-12T08:23:12.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "lite-gridv2.component.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-gridv2\\lite-gridv2.component.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-gridv2\\lite-gridv2.component.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-gridv2\\lite-gridv2.component.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-gridv2\\lite-gridv2.component.scss",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:17:07.735Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "logout.component.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\authantication\\logout\\logout.component.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\authantication\\logout\\logout.component.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\authantication\\logout\\logout.component.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\authantication\\logout\\logout.component.scss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:15:09.033Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "lite-file-uploader.component.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-file-uploader\\lite-file-uploader.component.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-file-uploader\\lite-file-uploader.component.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-file-uploader\\lite-file-uploader.component.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-file-uploader\\lite-file-uploader.component.scss",
-              "ViewState": "AgIAADAAAAAAAAAAAAASwDQAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:15:00.94Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Program.cs",
+              "RelativeDocumentMoniker": "LiteJiraAPI\\Program.cs",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Program.cs",
+              "RelativeToolTip": "LiteJiraAPI\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T10:03:37.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "_utilities.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\_utilities.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\_utilities.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\_utilities.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\_utilities.scss",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAmwA0AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:14:15.429Z",
+              "Title": "file-browser.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T09:54:56.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "directory.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:44:03.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "_typography.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\_typography.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\_typography.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\_typography.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\_typography.scss",
-              "ViewState": "AgIAACMCAAAAAAAAAAAAwDICAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:12:10.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ui-kit.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\_ui-kit.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\_ui-kit.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\_ui-kit.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\_ui-kit.scss",
+              "Title": "directory.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T08:14:09.569Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T09:44:00.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "masterController.cs",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Controllers\\master\\masterController.cs",
-              "RelativeDocumentMoniker": "LiteJiraAPI\\Controllers\\master\\masterController.cs",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Controllers\\master\\masterController.cs",
-              "RelativeToolTip": "LiteJiraAPI\\Controllers\\master\\masterController.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAkwHEAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T06:15:31.884Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "companyController.cs",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Controllers\\master\\companyController.cs",
-              "RelativeDocumentMoniker": "LiteJiraAPI\\Controllers\\master\\companyController.cs",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Controllers\\master\\companyController.cs",
-              "RelativeToolTip": "LiteJiraAPI\\Controllers\\master\\companyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-12T06:15:30.953Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "LiteJiraAPI\\appsettings.json",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\appsettings.json",
-              "RelativeToolTip": "LiteJiraAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T06:05:57.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "LiteJiraAPI\\appsettings.Development.json",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\appsettings.Development.json",
-              "RelativeToolTip": "LiteJiraAPI\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-12T06:05:49.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "projectmaster.service.spec.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.spec.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.spec.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.spec.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.spec.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "file-browser.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-browser.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:56:05.535Z",
+              "WhenOpened": "2025-06-12T09:43:49.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "projectmaster.component.spec.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.spec.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.spec.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.spec.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.component.spec.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:55:56.314Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "projectmaster.service.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster.service.ts",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABEAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:56:27.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "master.service.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:56:41.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 5,
               "Title": "master-routing.module.ts",
               "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
               "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
               "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
               "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\master-routing.module.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-11T14:45:38.102Z",
+              "WhenOpened": "2025-06-12T09:51:47.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "file-view.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:55:02.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "file-view.component.spec.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.spec.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.spec.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.spec.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:55:22.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appSettings.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\appSettings.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\appSettings.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\appSettings.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\appSettings.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:53:47.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "master.service.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\master.service.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:46:39.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DirectoryController.cs",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Controllers\\DirectoryController.cs",
+              "RelativeDocumentMoniker": "LiteJiraAPI\\Controllers\\DirectoryController.cs",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Controllers\\DirectoryController.cs",
+              "RelativeToolTip": "LiteJiraAPI\\Controllers\\DirectoryController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswA0AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T09:48:28.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "file-view.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\file-view\\file-view.component.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T09:55:22.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "common.service.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\services\\common.service.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\services\\common.service.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\services\\common.service.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\services\\common.service.ts",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:46:10.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "directory.component.spec.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.spec.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.spec.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.spec.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.spec.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:43:59.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "directory.component.css",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.css",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.css",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.css",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\file-browser\\directory\\directory.component.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-12T09:43:57.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "projectmaster-add-edit.component.spec.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.spec.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.spec.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.spec.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.spec.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:55:33.977Z",
+              "Title": "to-do-list.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\prm\\to-do-list\\to-do-list.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\prm\\to-do-list\\to-do-list.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\prm\\to-do-list\\to-do-list.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\prm\\to-do-list\\to-do-list.component.html",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJ8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T09:17:57.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "projectmaster-add-edit.component.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\projectmaster\\projectmaster-add-edit\\projectmaster-add-edit.component.scss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-12T05:55:24.278Z",
+              "Title": "all-projects.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2025-06-12T09:09:56.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "master.service.spec.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master.service.spec.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\master.service.spec.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\master.service.spec.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\master.service.spec.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "lite-grid.component.ts",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-12T05:18:52.407Z"
+              "WhenOpened": "2025-06-12T09:09:46.073Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "company.component.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-11T14:45:54.456Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "company.component.scss",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.scss",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.scss",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.scss",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.scss",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
-              "WhenOpened": "2025-06-11T14:45:53.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "company.component.html",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.html",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.html",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.html",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\company\\company.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "all-projects.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\prm\\all-projects\\all-projects.component.html",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-11T14:45:52.319Z"
+              "WhenOpened": "2025-06-12T09:06:50.33Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "lite-grid.component.html",
+              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
+              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
+              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
+              "RelativeToolTip": "LiteJiraUI\\src\\app\\shared\\utils\\reusable-components\\lite-grid\\lite-grid.component.html",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAACsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-12T09:06:40.75Z",
+              "EditorCaption": ""
             }
           ]
         }

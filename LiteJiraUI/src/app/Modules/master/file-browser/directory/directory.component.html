@@ -1,0 +1,51 @@
+<div class="ms-3 mb-2">
+  <div class="d-flex align-items-center" (click)="toggleCollapse()" style="cursor: pointer;">
+    <div class="m-2"><i class="bi bi-download" (click)="downlodFile(node.relativePath)"></i></div>
+    <div><i class="bi" [ngClass]="collapsed ? 'bi-folder' : 'bi-folder-fill'"></i></div>
+
+    <strong class="ms-2">{{ node.name }}</strong>
+    <span class="material-symbols-outlined" [ngClass]="collapsed ? 'bi-chevron-right' : 'bi-chevron-down'">
+    </span>
+  </div>
+
+  <div class="ms-4 mt-2" *ngIf="!collapsed">
+    <div class="w-25" *ngIf="node.directories.length > 0">
+      <input type="text"
+             class="form-control form-control-sm mb-2"
+             placeholder="Filter files & folders..."
+             [(ngModel)]="searchTerm" />
+    </div>
+
+    <ul class="list-unstyled">
+      <li *ngFor="let file of filteredFiles" class="d-flex align-items-center mb-1">
+        <div class="m-2"><i class="bi bi-download" (click)="downlodFile(node.relativePath)"></i></div>
+        <div><i class="bi me-2" [ngClass]="isImage(file.name) ? 'bi-image' : 'bi-file-earmark'" (click)="previewFile(node.relativePath ,file.type)"></i></div>
+        <div *ngIf="!isImage(file.name)">
+          <img src="./assets/images/no-record.png"
+               [alt]="file.name"
+               class="img-thumbnail"
+               width="200" />
+          <div>
+            <a [href]="'http://localhost:5021' + file.publicUrl" target="_blank">{{ file.name }}</a>
+          </div>
+        </div>
+      </li>
+
+      <li *ngFor="let dir of filteredDirectories">
+        <app-directory [node]="dir"></app-directory>
+      </li>
+
+      <li *ngFor="let file of filteredFiles" class="mt-2" (click)="previewFile('http://localhost:5021' + file.publicUrl , file.type)">
+        <div *ngIf="isImage(file.name)">
+          <img [src]="'http://localhost:5021' + file.publicUrl"
+               [alt]="file.name"
+               class="img-thumbnail"
+               width="200" />
+
+        </div>
+
+      </li>
+    </ul>
+  </div>
+</div>
+<file-view *ngIf="fileUrl != null" [fileUrl]="fileUrl"></file-view>

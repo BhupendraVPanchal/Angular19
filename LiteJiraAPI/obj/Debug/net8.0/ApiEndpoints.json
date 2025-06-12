@@ -839,5 +839,47 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.DirectoryController",
+    "Method": "CreateZipAsync",
+    "RelativePath": "api/Directory/createzip",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filePaths",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.DirectoryController",
+    "Method": "GetDirectoryStructure",
+    "RelativePath": "api/Directory/structure",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.DirectoryController",
+    "Method": "GetDirectoryStructure",
+    "RelativePath": "api/Directory/structurepost",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data1",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

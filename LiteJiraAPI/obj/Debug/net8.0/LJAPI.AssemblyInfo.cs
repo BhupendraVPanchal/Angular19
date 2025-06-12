@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LJAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab1fef137d98d4e06dbc4f3a1346cd539e4a1a42")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e41a4c5b05d9eea0accc6da5e16a92c410c24d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("LJAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LJAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,76 @@
+/* Folder Explorer Container */
+.folder-explorer {
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* Header (clickable toggle) */
+.folder-header {
+  cursor: pointer;
+  user-select: none;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Body */
+.folder-body {
+  padding-top: 1rem;
+}
+
+/* Search box */
+.search-box input {
+  width: 300px;
+}
+
+/* Grid layout for items */
+.item-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Shared styles for files and folders */
+.item {
+  width: 120px;
+  text-align: center;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+  .item:hover {
+    transform: scale(1.05);
+  }
+
+/* Icon or preview image */
+.icon {
+  font-size: 2rem;
+  color: #6c757d;
+}
+
+.folder .icon {
+  color: #f0ad4e;
+}
+
+.preview-img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+/* Label under icon or image */
+.label {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: #333;
+  word-break: break-word;
+  text-decoration: none;
+}
+
+  .label:hover {
+    text-decoration: underline;
+  }

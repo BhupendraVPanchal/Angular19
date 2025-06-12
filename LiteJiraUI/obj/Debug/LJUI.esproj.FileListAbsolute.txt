@@ -1,1 +1,2 @@
 D:\2025\LiteJira_V2\LiteJira\LiteJiraUI\obj\Debug\LJUI.esproj.CoreCompileInputs.cache
+D:\Demo_2\Angular19\LiteJiraUI\obj\Debug\LJUI.esproj.CoreCompileInputs.cache

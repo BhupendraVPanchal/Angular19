@@ -77,5 +77,15 @@ export class CommonService {
     return clonedForm;
   }
 
+  public getDirectoryStructureget(): Observable<any> {
+    return this.http.get(this.app_settings.MainApiPath + 'Directory/structure');
+  }
+  public getDirectoryStructure(data: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + 'Directory/structurepost', data);
+  }
+  public Download(data: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + 'Directory/createzip', data, { responseType: 'blob' });
+  }
+
   
 }
