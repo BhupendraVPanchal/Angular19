@@ -1,18 +1,22 @@
+import { NgIf } from '@angular/common';
 import {
   Component, Input, ViewChild, OnInit, AfterViewInit, OnChanges,
   SimpleChanges, Output, EventEmitter, OnDestroy
 } from '@angular/core';
-import { MatTableDataSource } from '@angular/material/table';
-import { MatPaginator } from '@angular/material/paginator';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MaterialModule } from '../../material/material.module';
 import { CommonModule } from '@angular/common';
 import { CustomizerSettingsService } from '../../../customizer-settings/customizer-settings.service';
-import { MatPaginatorModule } from '@angular/material/paginator';
 @Component({
   selector: 'lite-grid',
   standalone: true,
-  imports: [MaterialModule, CommonModule, MatPaginatorModule],
+  imports: [MatCardModule, MatMenuModule, MatButtonModule, MatTableModule, MatPaginatorModule, NgIf, MatTooltipModule,MaterialModule, CommonModule, MatPaginatorModule],
   templateUrl: './lite-grid.component.html',
   styleUrl: './lite-grid.component.scss'
 })

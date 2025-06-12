@@ -1,11 +1,11 @@
 
-<mat-card class="daxa-card recent-leads-card mb-25 border-radius bg-white border-none d-block"
+<mat-card class="mat-mdc-card mdc-card daxa-card all-projects-card mb-25 border-radius bg-white border-none d-block"
           [class.rtl-enabled]="themeService.isRTLEnabled()" id="config.grid_name">
   <mat-card-header>
     <mat-card-title [innerHTML]="title">
     </mat-card-title>
     <mat-card-subtitle>
-      <button mat-flat-button color="primary" class="me-2" (click)="onAction('add_new', null)"><mat-icon>add</mat-icon>Add New</button>
+      
       <form class="search-box position-relative">
         <i class="material-symbols-outlined">
           search
@@ -76,15 +76,22 @@
           <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
           <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
         </table>
-        <!-- Pagination -->
-        <mat-paginator [length]="rawdata_count"
-                       [pageSize]="config.pageSize"
-                       [pageIndex]="current_page_index"
-                       [pageSizeOptions]="pageSizeOptions"
-                       (page)="pageChangeHandler($event)"
-                       showFirstLastButtons>
-        </mat-paginator>
       </div>
+      <!-- Pagination -->
+      <mat-paginator [length]="rawdata_count"
+                     [pageSize]="config.pageSize"
+                     [pageIndex]="current_page_index"
+                     [pageSizeOptions]="pageSizeOptions"
+                     (page)="pageChangeHandler($event)"
+                     showFirstLastButtons>
+      </mat-paginator>
+    </div>
+    
+    <div class="add-new-task-btn text-right">
+      <button mat-button
+              (click)="onAction('add_new', null)">
+        + Add New Task
+      </button>
     </div>
   </mat-card-content>
 </mat-card>
