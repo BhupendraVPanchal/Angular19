@@ -50,7 +50,7 @@
     .file-preview-slider {
       display: flex;
       gap: 8px;
-      overflow-x: auto;
+      /*overflow-x: auto;*/
       scroll-behavior: smooth;
       padding: 5px;
       width: 90%;
@@ -92,4 +92,3 @@
       margin-top: 5px;
     }
   }
-  

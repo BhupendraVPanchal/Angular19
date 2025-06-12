@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Helper_CL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ad2a245f3e8445005a66e569446162af9e02885")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb920cd822b2b4f42a318ed566b8d801e870c8f9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Helper_CL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Helper_CL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

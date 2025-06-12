@@ -1,15 +1,15 @@
-import { isPlatformBrowser }  from '@angular/common';
-import { Component, Inject, PLATFORM_ID, OnInit, OnDestroy }  from '@angular/core';
-import { FormBuilder, FormGroup }  from '@angular/forms';
-import { CommonService }  from '../../../../shared/services/common.service';
-import { CustomizerSettingsService }  from '../../../../shared/customizer-settings/customizer-settings.service';
-import { debounceTime, distinctUntilChanged, filter, switchMap }  from 'rxjs';
-import { MAT_DIALOG_DATA, MatDialogRef }  from '@angular/material/dialog';
-import { MasterService }  from '../../master.service';
-import { AlertService }  from '../../../../shared/utils/alerts/alert-service.service';
-import { NotificationService }  from '../../../../shared/services/notification.service';
-import { LoaderService }  from '../../../../shared/services/loader.service';
-import { DynamicAlertService }  from '../../../../shared/common/dynamic-alert/dynamic-alert.service';
+import { isPlatformBrowser } from '@angular/common';
+import { Component, Inject, PLATFORM_ID, OnInit, OnDestroy } from '@angular/core';
+import { FormBuilder, FormGroup } from '@angular/forms';
+import { CommonService } from '../../../../shared/services/common.service';
+import { CustomizerSettingsService } from '../../../../shared/customizer-settings/customizer-settings.service';
+import { debounceTime, distinctUntilChanged, filter, switchMap } from 'rxjs';
+import { ComponyService } from '../../../company/compony.service';
+import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
+import { MasterService } from '../../master.service';
+import { NotificationService } from '../../../../shared/services/notification.service';
+import { LoaderService } from '../../../../shared/services/loader.service';
+import { DynamicAlertService } from '../../../../shared/common/dynamic-alert/dynamic-alert.service';
 
 @Component({
   selector: 'app-projectmaster-add-edit',
@@ -57,7 +57,8 @@ export class ProjectmasterAddEditComponent implements OnInit {
   }
 
   build_form(rowdata: any) {
-    var obj: any = {};
+    var obj: any = {}
+      ;
     this.entity_formgroup = this.fb.group(
       {
         projectid: [rowdata != null ? rowdata.projectid : 0]

@@ -38,3 +38,7 @@ td {
 .mat-icon-button {
   margin: 0 5px;
 }
+.table-responsive {
+  overflow: auto !important;
+  -webkit-overflow-scrolling: touch;
+}

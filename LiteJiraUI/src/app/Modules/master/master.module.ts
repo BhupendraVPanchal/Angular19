@@ -17,10 +17,12 @@ import { CompanyComponent } from './company/company.component';
 import { CompanyAddEditComponent } from './company/company-add-edit/company-add-edit.component';
 import { M2GridDivComponent } from '../../shared/utils/reusable-components/m2-grid-div/m2-grid-div.component';
 import { MasterService } from './master.service';
+import { ProjectmasterComponent } from './projectmaster/projectmaster.component';
+import { ProjectmasterAddEditComponent } from './projectmaster/projectmaster-add-edit/projectmaster-add-edit.component';
 
 
 @NgModule({
-  declarations: [CompanyComponent, CompanyAddEditComponent],
+  declarations: [CompanyComponent, CompanyAddEditComponent, ProjectmasterComponent, ProjectmasterAddEditComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   imports: [
     CommonModule,

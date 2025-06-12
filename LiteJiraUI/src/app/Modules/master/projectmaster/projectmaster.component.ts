@@ -8,9 +8,9 @@ import { MatPaginator } from '@angular/material/paginator';
 import { AlertType } from '../../../shared/utils/alerts/alert-types';
 import { ProjectmasterAddEditComponent } from './projectmaster-add-edit/projectmaster-add-edit.component';
 import { MasterService } from '../master.service';
-
 import { NotificationService } from '../../../shared/services/notification.service';
 import { DynamicAlertService } from '../../../shared/common/dynamic-alert/dynamic-alert.service';
+import { HttpResponse } from '@angular/common/http';
 
 
 @Component({
@@ -35,8 +35,8 @@ export class ProjectmasterComponent implements OnInit, AfterViewInit {
 
 
 
-  public grid_config: any = {
-    title: '<h5 class="mb-0">Project Master</h5>',
+  grid_config: any = {
+    title: `<h5 class="mb-0"> All Projects </h5>`,
     grid_name: 'projectmaster',
     is_addbtn: false,
     full_width: true,
@@ -83,7 +83,7 @@ export class ProjectmasterComponent implements OnInit, AfterViewInit {
     this.query = {
       page_number: 1,
       page_size: 20,
-      search_column: 'projectname',
+      search_column: 'projectid',
       search_text: '',
       sort_col_name: 'projectid',
       sort_type: 'Desc'
@@ -154,7 +154,7 @@ export class ProjectmasterComponent implements OnInit, AfterViewInit {
         this._masterserviceobj.delete_projectmaster({ projectid: _code }).subscribe({
           next: (data) => {
             this.data_items = this.data_items.filter((x) => {
-              return !(x.companyid == _code)
+              return !(x.projectid == _code)
             })
           }, error: (err_response) => {
             this._notificationservice.showToast(err_response['error']['message']);
@@ -166,18 +166,35 @@ export class ProjectmasterComponent implements OnInit, AfterViewInit {
 
 
   export_to_excel(): void {
-
-
+    this._masterserviceobj.get_projectmaster_data(this.query)
+      .subscribe({
+        next: (event) => {
+          let data = event as HttpResponse<Blob>;
+          const downloadedFile = new Blob([data.body as BlobPart], {
+            type: data.body?.type
+          });
+          if (downloadedFile != null && downloadedFile.type != '') {
+            var link = document.createElement('a');
+            var downloadURL = window.URL.createObjectURL(downloadedFile);
+            link.href = downloadURL;
+            link.download = this._headertitle + ".xlsx";
+            link.click();
+            window.URL.revokeObjectURL(downloadURL);
+          }
+        }, error: (err_response) => {
+          this._notificationservice.showToast(err_response['error']['message']);
+        }
+      });
   }
 
   public custom_events(event: any) {
     console.log(event);
     let ColumnCaption = String(event?.action).trim().toLowerCase();
     if (ColumnCaption == 'edit') {
-      this.add_edit_record(event.data.companyid);
+      this.add_edit_record(event.data.projectid);
     }
     else if (ColumnCaption == 'delete') {
-      this.delete_record(event.data.companyid);
+      this.delete_record(event.data.projectid);
     }
     else if (ColumnCaption == 'add_new') {
       this.add_edit_record('0');

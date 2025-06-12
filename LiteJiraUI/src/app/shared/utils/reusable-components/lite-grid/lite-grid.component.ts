@@ -72,10 +72,16 @@ export class LiteGridComponent implements OnInit, AfterViewInit, OnChanges, OnDe
   ngAfterViewInit() {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+    // If you need custom sorting
+    this.dataSource.sortingDataAccessor = (item, property) => {
+      // Custom sorting logic if needed
+      return item[property];
+    };
   }
 
   /** ✅ Handle data changes dynamically */
   ngOnChanges(changes: SimpleChanges) {
+    console.log("sort", this.sort);
     console.log("changes",this.dataSource.paginator);
     this.ngOnInit();
     if (changes['data'] && changes['data'].currentValue) {
