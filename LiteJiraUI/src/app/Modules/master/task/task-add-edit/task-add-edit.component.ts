@@ -78,21 +78,21 @@ export class TaskAddEditComponent implements OnInit {
         , tasktitle: [rowdata != null ? rowdata.tasktitle : null]
         , taskdesc: [rowdata != null ? rowdata.taskdesc : null]
         , taskattachment: [rowdata != null ? rowdata.taskattachment : null]
-        , taskdatetime: [rowdata != null ? rowdata.taskdatetime : null]
         , priority: [rowdata != null ? rowdata.priority : null]
         , importance: [rowdata != null ? rowdata.importance : null]
         , tasktype: [rowdata != null ? rowdata.tasktype : null]
-        , startdate: [rowdata != null ? rowdata.startdate : null]
-        , duedate: [rowdata != null ? rowdata.duedate : null]
-        , task_status: [rowdata != null ? rowdata.task_status : null]
-        , assigneddate: [rowdata != null ? rowdata.assigneddate : null]
-        , isassigned: [rowdata != null ? rowdata.isassigned : null]
-        , iscancelled: [rowdata != null ? rowdata.iscancelled : null]
-        , cancelledby: [rowdata != null ? rowdata.cancelledby : null]
-        , cancelledon: [rowdata != null ? rowdata.cancelledon : null]
-        , commitmentdate: [rowdata != null ? rowdata.commitmentdate : null]
-        , insertsessionid: [rowdata != null ? rowdata.insertsessionid : null]
-        , updatesessionid: [rowdata != null ? rowdata.updatesessionid : null]
+        //, taskdatetime: [rowdata != null ? rowdata.taskdatetime : null]
+        //, startdate: [rowdata != null ? rowdata.startdate : null]
+        //, duedate: [rowdata != null ? rowdata.duedate : null]
+        //, task_status: [rowdata != null ? rowdata.task_status : null]
+        //, assigneddate: [rowdata != null ? rowdata.assigneddate : null]
+        //, isassigned: [rowdata != null ? rowdata.isassigned : null]
+        //, iscancelled: [rowdata != null ? rowdata.iscancelled : null]
+        //, cancelledby: [rowdata != null ? rowdata.cancelledby : null]
+        //, cancelledon: [rowdata != null ? rowdata.cancelledon : null]
+        //, commitmentdate: [rowdata != null ? rowdata.commitmentdate : null]
+        //, insertsessionid: [rowdata != null ? rowdata.insertsessionid : null]
+        //, updatesessionid: [rowdata != null ? rowdata.updatesessionid : null]
       }
     );
     this.entity_formgroup_backup = this._commonservice.cloneForm(this.entity_formgroup);
@@ -162,6 +162,7 @@ export class TaskAddEditComponent implements OnInit {
   save_entity_data(): void {
     this._loader.show();
     let snd_data = this.entity_formgroup.getRawValue();
+    console.log("snd_data", snd_data);
     this._masterserviceobj.add_update_task(snd_data)
       .subscribe({
         next: (data) => {
