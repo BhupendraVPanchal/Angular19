@@ -123,6 +123,334 @@
     ]
   },
   {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "get_projectmaster_help",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "get_tasktype_help",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "get_prioritymaster_help",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "get_tagmaster_help",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "get_task_data",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "add_update_task",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "get_task",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LJAPI.Controllers.taskController",
+    "Method": "delete_task",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "LiteJiraAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "api/{controller}/{action}/{id}",
@@ -817,6 +1145,211 @@
   {
     "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
     "Method": "delete_projectmaster",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "get_tagmaster_data",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "add_update_tagmaster",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "get_tagmaster",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "delete_tagmaster",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "get_tagmaster_help",
     "RelativePath": "api/{controller}/{action}/{id}",
     "HttpMethod": "POST",
     "IsController": true,

@@ -1,6 +1,7 @@
 //using EcommerceAPI.Middleware;
 using Helper_CL.middleware;
 using LiteJiraAPI.Business_Logic.master;
+using LJAPI.Business_Logic.task;
 var builder = WebApplication.CreateBuilder(args);
 var allow_cross_origin = "_allow_cross_origin";
 
@@ -29,6 +30,7 @@ builder.Services.AddCors(options =>
 //// Add services to the container.
 ///
 builder.Services.AddSingleton<master_bl>();
+builder.Services.AddSingleton<task_bl>();
 //builder.Services.AddControllers();
 
 var app = builder.Build();

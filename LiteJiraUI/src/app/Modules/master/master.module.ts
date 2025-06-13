@@ -27,6 +27,8 @@ import { ProjectmemberComponent } from './projectmember/projectmember.component'
 import { ProjectmemberAddEditComponent } from './projectmember/projectmember-add-edit/projectmember-add-edit.component';
 import { TagmasterComponent } from './tagmaster/tagmaster.component';
 import { TagmasterAddEditComponent } from './tagmaster/tagmaster-add-edit/tagmaster-add-edit.component';
+import { TaskComponent } from './task/task.component';
+import { TaskAddEditComponent } from './task/task-add-edit/task-add-edit.component';
 
 
 @NgModule({
@@ -35,6 +37,7 @@ import { TagmasterAddEditComponent } from './tagmaster/tagmaster-add-edit/tagmas
     , FileBrowserComponent, DirectoryComponent, FileViewComponent
     , ProjectmemberComponent, ProjectmemberAddEditComponent
     , TagmasterComponent, TagmasterAddEditComponent
+    , TaskComponent, TaskAddEditComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   imports: [

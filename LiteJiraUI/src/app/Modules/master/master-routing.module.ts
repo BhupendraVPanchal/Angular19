@@ -5,6 +5,7 @@ import { ProjectmasterComponent } from './projectmaster/projectmaster.component'
 import { FileBrowserComponent } from './file-browser/file-browser.component';
 import { ProjectmemberComponent } from './projectmember/projectmember.component';
 import { TagmasterComponent } from './tagmaster/tagmaster.component';
+import { TaskComponent } from './task/task.component';
 
 
 const routes: Routes = [
@@ -12,7 +13,7 @@ const routes: Routes = [
   { path: 'project', component: ProjectmasterComponent },
   { path: 'members', component: ProjectmemberComponent },
   { path: 'tag', component: TagmasterComponent },
-  { path: 'task', component: ProjectmemberComponent },
+  { path: 'task', component: TaskComponent },
   { path: 'fl', component: FileBrowserComponent }
 ];
 

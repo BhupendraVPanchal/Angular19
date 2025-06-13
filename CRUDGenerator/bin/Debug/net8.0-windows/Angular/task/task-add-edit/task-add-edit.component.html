@@ -1,0 +1,87 @@
+<div class="add-new-popup" [class.rtl-enabled]="themeService.isRTLEnabled()"> 
+<div class="popup-dialog"> 
+<mat-card class="daxa-card mb-25 border-radius bg-white border-none d-block"> 
+<mat-card-header> 
+<mat-card-title> 
+<h5 class="mb-0">{{form_title}}</h5> 
+</mat-card-title> 
+<mat-card-subtitle> 
+<button mat-button (click)="close_dialog(null)"> 
+<i class="ri-close-fill"></i> 
+</button> 
+</mat-card-subtitle> 
+</mat-card-header> 
+<mat-card-content> 
+<div class="row"> 
+<form [formGroup]="entity_formgroup"> 
+<div class="row"> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="projectid" Caption="projectid" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="refno" Caption="refno" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="tasktitle" Caption="tasktitle" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="taskdesc" Caption="taskdesc" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="taskdatetime" Caption="taskdatetime" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="priority" Caption="priority" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="importance" Caption="importance" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="tasktype" Caption="tasktype" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="startdate" Caption="startdate" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="duedate" Caption="duedate" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="task_status" Caption="task_status" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="assigneddate" Caption="assigneddate" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="isassigned" Caption="isassigned" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="iscancelled" Caption="iscancelled" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="cancelledby" Caption="cancelledby" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="cancelledon" Caption="cancelledon" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="commitmentdate" Caption="commitmentdate" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="insertsessionid" Caption="insertsessionid" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<div class="col-md-4 col-sm-6"> 
+<app-lite-box [formGroup]="entity_formgroup" field="updatesessionid" Caption="updatesessionid" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box> 
+</div> 
+<!-- Left Side: Company Details --> 
+</div> 
+<!-- Buttons Section --> 
+<div class="btn-box"> 
+<button mat-flat-button color="primary" class="me-2" [disabled]="!entity_formgroup.valid" (click)="formsubmit()">Save</button> 
+<button mat-flat-button color="warn" (click)="close_dialog(null)">Cancel</button> 
+</div> 
+</form> 
+</div> 
+</mat-card-content> 
+</mat-card> 
+</div> 
+</div> 

@@ -132,7 +132,49 @@ namespace LiteJiraAPI.Controllers.master
             return _bl.delete_projectmaster(data, t);
         }
 
+        /// <summary>
+        /// Tag Master
+        /// </summary>
+        /// <param name="data"></param>
+        /// <returns></returns>
 
+        [HttpPost]
+        public JObject get_tagmaster_data(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_tagmaster_data(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject add_update_tagmaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.add_update_tagmaster(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject get_tagmaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_tagmaster(data, t);
+        }
+
+
+        [HttpPost]
+        public JObject delete_tagmaster(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.delete_tagmaster(data, t);
+        }
+
+        [HttpPost]
+        public JObject get_tagmaster_help(JObject data)
+        {
+            _token t = (HttpContext.Items[_site_config.GetConfigValue("login_key")]) as _token;
+            return _bl.get_tagmaster_help(data, t);
+        }
 
 
     }

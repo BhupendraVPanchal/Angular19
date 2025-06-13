@@ -42,7 +42,26 @@
             adp_projectmaster_delete
         }
 
+        public enum tagmaster
+        {
+            adp_tagmaster_select,
+            adp_tagmaster_insert_or_update,
+            adp_tagmaster_read,
+            adp_tagmaster_delete,
+            adp_get_tagmaster_help
+        }
 
+        public enum task
+        {
+            adp_task_select,
+            adp_task_insert_or_update,
+            adp_task_read,
+            adp_task_delete,
+            adp_get_tagmaster_help,
+            adp_get_projectmaster_help,
+            adp_get_tasktype_help,
+            adp_get_prioritymaster_help
+        }
 
     }
 }

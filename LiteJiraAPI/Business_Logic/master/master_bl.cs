@@ -262,5 +262,95 @@ namespace LiteJiraAPI.Business_Logic.master
             }
         }
 
+
+
+        public JObject get_tagmaster_data(JObject data, _token t)
+        {
+            var RtnObject = new JObject();
+            try
+            {
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                List<string> exclPara = new List<string>();
+                data["result_type"] = "1";
+                DataTable dtDataCount = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.tagmaster.adp_tagmaster_select.ToString()), data, para, exclPara);
+                data["result_type"] = "2";
+                DataSet dtData = _data_access.GetDataSet(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.tagmaster.adp_tagmaster_select.ToString()), data, para, exclPara);
+                RtnObject["Data"] = dtData.ToJArray();
+                RtnObject["DataCount"] = dtDataCount.Rows[0]["totalRowsCount"].ToString();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return RtnObject;
+        }
+
+
+        public JObject add_update_tagmaster(JObject data, _token t)
+        {
+            try
+            {
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                para.Add("login_code", t.user_code);
+                bool is_locked = false;
+                bool.TryParse(Convert.ToString(data["is_locked"]), out is_locked);
+                data["is_locked"] = is_locked ? 1 : 0;
+                DataTable ds = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.tagmaster.adp_tagmaster_insert_or_update.ToString()), data, para, null);
+                return ds.ToJObject();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public JObject get_tagmaster(JObject data, _token t)
+        {
+            try
+            {
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                DataTable ds = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.tagmaster.adp_tagmaster_read.ToString()), data, para, null);
+                return ds.ToJObject();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+        public JObject delete_tagmaster(JObject data, _token t)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                para.Add("login_code", t.user_code);
+                dt = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.tagmaster.adp_tagmaster_delete.ToString()), data, para, null);
+                return dt.ToJObject();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public JObject get_tagmaster_help(JObject data, _token t)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                dt = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.tagmaster.adp_get_tagmaster_help.ToString()), data, para, null);
+                return dt.ToJObject();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
     }
 }
