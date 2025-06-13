@@ -132,6 +132,22 @@ namespace Helper_CL.custom
         //    }
         //}
 
+        public static string get_ftp_full_path(string section)
+        {
+            string result = string.Empty;
+            try
+            {
+                string ftp_endpoint = GetConfigValue("ftp", "ftp_endpoint");
+                string section_path = GetConfigValue("ftp", section);
+                result = string.Format("{0}/{1}", ftp_endpoint, section_path);
+            }
+            catch (Exception ex)
+            {
+
+            }
+            return result;
+        }
+
     }
 
 }

@@ -488,6 +488,47 @@
   },
   {
     "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
+    "Method": "get_designation_help",
+    "RelativePath": "api/{controller}/{action}/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "IsRequired": false
+      },
+      {
+        "Name": "controller",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "action",
+        "Type": "",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Newtonsoft.Json.Linq.JObject",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LiteJiraAPI.Controllers.master.masterController",
     "Method": "get_projectmember_data",
     "RelativePath": "api/{controller}/{action}/{id}",
     "HttpMethod": "POST",

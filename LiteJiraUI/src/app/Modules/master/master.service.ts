@@ -37,7 +37,10 @@ export class MasterService {
   public get_companymaster_help(query: any): Observable<any> {
     return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/get_companymaster_help', query);
   }
-  
+
+  public get_designation_help(query: any): Observable<any> {
+    return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/get_designation_help', query);
+  }
 
 
   // Project Member
@@ -45,6 +48,7 @@ export class MasterService {
   public get_projectmember_data(query: any): Observable<any> {
     return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/get_projectmember_data', query);
   }
+
 
   public add_update_projectmember(query: any): Observable<any> {
     return this.http.post(this.app_settings.MainApiPath + this.controller_name + '/add_update_projectmember', query);

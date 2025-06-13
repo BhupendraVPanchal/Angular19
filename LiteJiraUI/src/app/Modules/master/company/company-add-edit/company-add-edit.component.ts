@@ -94,7 +94,8 @@ export class CompanyAddEditComponent implements OnInit {
       this._masterserviceobj.get_companymaster({ companyid: this.entity_code })
         .subscribe({
           next: (RtnData) => {
-            var datarow = RtnData?.data[0];
+            var datarow = RtnData.data[0];
+            this.company_logo_src = RtnData?.file_path + '/' + datarow?.companyid +'/' +datarow?.logo;
             this.build_form(datarow);
           }, error: (err_response) => {
             this._notificationservice.showToast(err_response['error']['message']);

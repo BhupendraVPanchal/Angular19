@@ -1,0 +1,59 @@
+<div class="add-new-popup" [class.rtl-enabled]="themeService.isRTLEnabled()">
+  <div class="popup-dialog">
+    <mat-card class="daxa-card mb-25 border-radius bg-white border-none d-block">
+      <mat-card-header>
+        <mat-card-title>
+          <h5 class="mb-0">{{form_title}}</h5>
+        </mat-card-title>
+        <mat-card-subtitle>
+          <button mat-button (click)="close_dialog(null)">
+            <i class="ri-close-fill"></i>
+          </button>
+        </mat-card-subtitle>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+          <form [formGroup]="entity_formgroup">
+            <div class="row">
+              <div class="col-md-4 col-sm-6">
+                <app-lite-box [formGroup]="entity_formgroup" field="name" Caption="Name" [Isnum]="'text'" [IsReq]="true" [maxLen]="1000"></app-lite-box>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <lite-ddl [formGroup]="entity_formgroup" field="designation" [Caption]="'Designation'" [IsReq]="true" [options]="designation_data">
+                </lite-ddl>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <app-lite-box [formGroup]="entity_formgroup" field="emailid" Caption="Email-ID" [Isnum]="'text'" [IsReq]="false" [maxLen]="255"></app-lite-box>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <app-lite-box [formGroup]="entity_formgroup" field="phone" Caption="Phone" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <app-lite-box [formGroup]="entity_formgroup" field="password" Caption="Password" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <app-lite-box [formGroup]="entity_formgroup" field="password" Caption="Confirmed Password" [Isnum]="'text'" [IsReq]="false" [maxLen]="20"></app-lite-box>
+              </div>
+              <div class="col-md-8 col-sm-6">
+                <app-lite-file-uploader2 [formGroup]="entity_formgroup" Caption="Profile" field="profile_image"
+                                         (GetFileEvent)="get_file_from_uploader($event)" (DeleteFile)="delete_file_from_uploader('D')" BannerViewURL="{{upload_file_src}}"
+                                         [IsReq]="true">
+
+                </app-lite-file-uploader2>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <lite-switch [formGroup]="entity_formgroup" field="is_locked" Caption="Active/InActive"></lite-switch>
+              </div>
+              <!-- Left Side: Company Details -->
+            </div>
+            <!-- Buttons Section -->
+            <div class="btn-box">
+              <button mat-flat-button color="primary" class="me-2" [disabled]="!entity_formgroup.valid" (click)="formsubmit()">Save</button>
+              <button mat-flat-button color="warn" (click)="close_dialog(null)">Cancel</button>
+            </div>
+          </form>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

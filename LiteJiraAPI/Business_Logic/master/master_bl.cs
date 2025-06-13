@@ -50,11 +50,14 @@ namespace LiteJiraAPI.Business_Logic.master
         }
         public JObject get_companymaster(JObject data, _token t)
         {
+            JObject RtnObject = new JObject();
             try
             {
                 Dictionary<string, object> para = new Dictionary<string, object>();
                 DataTable ds = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.companymaster.adp_companymaster_read.ToString()), data, para, null);
-                return ds.ToJObject();
+                RtnObject["data"] = ds.ToJArray();
+                RtnObject["file_path"] = _site_config.get_ftp_full_path("company");
+                return RtnObject;
             }
             catch (Exception ex)
             {
@@ -92,6 +95,21 @@ namespace LiteJiraAPI.Business_Logic.master
             }
         }
 
+        public JObject get_designation_help(JObject data, _token t)
+        {
+            try
+            {
+                DataTable dt = new DataTable();
+                Dictionary<string, object> para = new Dictionary<string, object>();
+                dt = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.companymaster.adp_get_designation_help.ToString()), data, para, null);
+                return dt.ToJObject();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
         // For projectmember
         public JObject get_projectmember_data(JObject data, _token t)
         {
@@ -117,6 +135,7 @@ namespace LiteJiraAPI.Business_Logic.master
         {
             try
             {
+                data["password"] = _static_general.EncryptedText(data["password"].ToString());
                 Dictionary<string, object> para = new Dictionary<string, object>();
                 para.Add("login_code", t.user_code);
                 bool is_locked = false;
@@ -132,16 +151,23 @@ namespace LiteJiraAPI.Business_Logic.master
         }
         public JObject get_projectmember(JObject data, _token t)
         {
+            JObject RtnObject = new JObject();
             try
             {
                 Dictionary<string, object> para = new Dictionary<string, object>();
                 DataTable ds = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.projectmember.adp_projectmember_read.ToString()), data, para, null);
-                return ds.ToJObject();
+                if (ds != null && ds.Rows.Count != 0)
+                {
+                    ds.Rows[0]["password"] = _static_general.DecryptedText(Convert.ToString(ds.Rows[0]["password"]));
+                }
+                RtnObject["data"] = ds.ToJArray();
+                RtnObject["file_path"] = _site_config.get_ftp_full_path("projectmember");
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+            return RtnObject;
         }
         public JObject delete_projectmember(JObject data, _token t)
         {
@@ -204,16 +230,19 @@ namespace LiteJiraAPI.Business_Logic.master
 
         public JObject get_projectmaster(JObject data, _token t)
         {
+            JObject RtnObject = new JObject();
             try
             {
                 Dictionary<string, object> para = new Dictionary<string, object>();
                 DataTable ds = _data_access.GetDataTable(_site_config.GetDBConnectionString(t), string.Format("{0}.{1}", DbSchema.dbo, sql_identifier.projectmaster.adp_projectmaster_read.ToString()), data, para, null);
-                return ds.ToJObject();
+                RtnObject["data"] = ds.ToJArray();
+                RtnObject["file_path"] = _site_config.get_ftp_full_path("project");
             }
             catch (Exception ex)
             {
                 throw ex;
             }
+            return RtnObject;
         }
 
 

@@ -1,6 +1,30 @@
 {
   "Files": [
     {
+      "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\company\\4\\Logo_2.png",
+      "PackagePath": "staticwebassets\\uploads\\company\\4\\Logo_2.png"
+    },
+    {
+      "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\company\\4\\Screenshot (40).png",
+      "PackagePath": "staticwebassets\\uploads\\company\\4\\Screenshot (40).png"
+    },
+    {
+      "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\company\\4\\user_profile.png",
+      "PackagePath": "staticwebassets\\uploads\\company\\4\\user_profile.png"
+    },
+    {
+      "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\project\\6\\SampleJPGImage_50kbmb.jpg",
+      "PackagePath": "staticwebassets\\uploads\\project\\6\\SampleJPGImage_50kbmb.jpg"
+    },
+    {
+      "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\projectmember\\1\\user_profile.png",
+      "PackagePath": "staticwebassets\\uploads\\projectmember\\1\\user_profile.png"
+    },
+    {
+      "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\projectmember\\2\\user_profile.png",
+      "PackagePath": "staticwebassets\\uploads\\projectmember\\2\\user_profile.png"
+    },
+    {
       "Id": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\wwwroot\\uploads\\sections\\100\\6\\mobile\\DetailPage.jpg",
       "PackagePath": "staticwebassets\\uploads\\sections\\100\\6\\mobile\\DetailPage.jpg"
     },

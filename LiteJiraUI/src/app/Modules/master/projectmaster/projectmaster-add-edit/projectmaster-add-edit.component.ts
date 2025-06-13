@@ -29,6 +29,9 @@ export class ProjectmasterAddEditComponent implements OnInit {
 
   classApplied = true;
 
+  public upload_file_src: string = "";
+  public upload_file: File = null;
+
   public company_data: any[]=[];
   constructor(
     private fb: FormBuilder,
@@ -55,6 +58,7 @@ export class ProjectmasterAddEditComponent implements OnInit {
     this.entity_code = this.data.entity_code > 0 ? this.data.entity_code : null;
     this.isnew = (this.entity_code == null);
     this.build_form(null);
+    this.load_utility_data();
     this.fetch_data();
   }
 
@@ -83,7 +87,8 @@ export class ProjectmasterAddEditComponent implements OnInit {
       this._masterserviceobj.get_projectmaster({ projectid: this.entity_code })
         .subscribe({
           next: (RtnData) => {
-            var datarow = RtnData?.data[0];
+            var datarow = RtnData.data[0];
+            this.upload_file_src = RtnData?.file_path + '/' + datarow?.projectid + '/' + datarow?.profile_image;
             this.build_form(datarow);
           }, error: (err_response) => {
             this._notificationservice.showToast(err_response['error']['message']);
@@ -129,6 +134,7 @@ export class ProjectmasterAddEditComponent implements OnInit {
           }
           this.entity_code = data.data[0].projectid;
           snd_data.projectid = this.entity_code;
+          this.upload_file_to_ftp(this.entity_code);
           this.close_dialog(null);
           this._loader.hide();
         }, error: (err_response) => {
@@ -184,6 +190,19 @@ export class ProjectmasterAddEditComponent implements OnInit {
       })
       return;
     }
+  }
+
+  public delete_file_from_uploader(flag: any) {
+    this.data.payload["logo"] = null;
+  }
+  public get_file_from_uploader(event: any): void {
+    this.upload_file = event;
+  }
+
+  public upload_file_to_ftp(code: number) {
+    const formData: FormData = new FormData();
+    formData.append('Files', this.upload_file);
+    this._commonservice.upload_files_to_directory(formData, "project/" + String(code)).subscribe();
   }
 
 

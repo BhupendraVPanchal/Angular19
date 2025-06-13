@@ -23,10 +23,19 @@ import { FileBrowserComponent } from './file-browser/file-browser.component';
 import { DirectoryComponent } from './file-browser/directory/directory.component';
 import { FileViewComponent } from './file-browser/file-view/file-view.component';
 import { LiteFileUploader2Component } from '../../shared/utils/reusable-components/lite-file-uploader2/lite-file-uploader2.component';
+import { ProjectmemberComponent } from './projectmember/projectmember.component';
+import { ProjectmemberAddEditComponent } from './projectmember/projectmember-add-edit/projectmember-add-edit.component';
+import { TagmasterComponent } from './tagmaster/tagmaster.component';
+import { TagmasterAddEditComponent } from './tagmaster/tagmaster-add-edit/tagmaster-add-edit.component';
 
 
 @NgModule({
-  declarations: [CompanyComponent, CompanyAddEditComponent, ProjectmasterComponent, ProjectmasterAddEditComponent, FileBrowserComponent, DirectoryComponent, FileViewComponent],
+  declarations: [CompanyComponent, CompanyAddEditComponent
+    , ProjectmasterComponent, ProjectmasterAddEditComponent
+    , FileBrowserComponent, DirectoryComponent, FileViewComponent
+    , ProjectmemberComponent, ProjectmemberAddEditComponent
+    , TagmasterComponent, TagmasterAddEditComponent
+  ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   imports: [
     CommonModule,

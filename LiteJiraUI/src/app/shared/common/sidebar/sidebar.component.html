@@ -76,6 +76,11 @@
                         Members
                       </a>
                     </li>
+                    <li class="sidemenu-item">
+                      <a routerLink="/master/tag" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
+                        Tag Master
+                      </a>
+                    </li>
                   </ul>
                 </mat-expansion-panel>
                 <mat-expansion-panel (opened)="panelOpenState = true" (closed)="panelOpenState = true">
@@ -91,12 +96,12 @@
                   </mat-expansion-panel-header>
                   <ul class="sidebar-sub-menu">
                     <li class="sidemenu-item">
-                      <a routerLink="/projects-list" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
+                      <a routerLink="/master/project" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
                         Projects List
                       </a>
                     </li>
                     <li class="sidemenu-item">
-                      <a routerLink="/alltask" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
+                      <a routerLink="/master/task" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" class="sidemenu-link">
                         Task
                       </a>
                     </li>

@@ -29,10 +29,14 @@
                 <lite-textarea [formGroup]="entity_formgroup" field="details" [IsReq]="true" Caption="Description"></lite-textarea>
               </div>
               <div class="col-md-3 col-sm-6">
-                <lite-date-picker [formGroup]="entity_formgroup" field="startdate" Caption="Start Date"  [IsReq]="true" ></lite-date-picker>
+                <lite-date-picker [formGroup]="entity_formgroup" field="startdate" Caption="Start Date" [IsReq]="true"></lite-date-picker>
               </div>
               <div class="col-md-8 col-sm-6">
-                <app-lite-file-uploader [formGroup]="entity_formgroup" field="profile_image" [multiple]="false" accept="image/*"></app-lite-file-uploader>
+                <app-lite-file-uploader2 [formGroup]="entity_formgroup" Caption="Profile" field="profile_image"
+                                         (GetFileEvent)="get_file_from_uploader($event)" (DeleteFile)="delete_file_from_uploader('D')" BannerViewURL="{{upload_file_src}}"
+                                         [IsReq]="true">
+
+                </app-lite-file-uploader2>
               </div>
               <div class="col-md-4 col-sm-6">
                 <lite-switch [formGroup]="entity_formgroup" field="status" Caption="Active/InActive"></lite-switch>

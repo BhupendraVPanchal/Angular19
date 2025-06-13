@@ -3,14 +3,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { CompanyComponent } from './company/company.component';
 import { ProjectmasterComponent } from './projectmaster/projectmaster.component';
 import { FileBrowserComponent } from './file-browser/file-browser.component';
+import { ProjectmemberComponent } from './projectmember/projectmember.component';
+import { TagmasterComponent } from './tagmaster/tagmaster.component';
 
 
 const routes: Routes = [
   { path: 'company', component: CompanyComponent },
-  { path: 'pm', component: ProjectmasterComponent },
+  { path: 'project', component: ProjectmasterComponent },
+  { path: 'members', component: ProjectmemberComponent },
+  { path: 'tag', component: TagmasterComponent },
+  { path: 'task', component: ProjectmemberComponent },
   { path: 'fl', component: FileBrowserComponent }
-  
-
 ];
 
 @NgModule({
