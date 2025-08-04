@@ -30,6 +30,7 @@
     <PackageJsonDependenciesMaterialIcons Condition="$(PackageJsonDependenciesMaterialIcons) == ''">^1.13.13</PackageJsonDependenciesMaterialIcons>
     <PackageJsonDependenciesNgxEditor Condition="$(PackageJsonDependenciesNgxEditor) == ''">^18.0.0</PackageJsonDependenciesNgxEditor>
     <PackageJsonDependenciesNgxScrollbar Condition="$(PackageJsonDependenciesNgxScrollbar) == ''">^18.0.0</PackageJsonDependenciesNgxScrollbar>
+    <PackageJsonDependenciesPdfmake Condition="$(PackageJsonDependenciesPdfmake) == ''">^0.2.20</PackageJsonDependenciesPdfmake>
     <PackageJsonDependenciesRemixicon Condition="$(PackageJsonDependenciesRemixicon) == ''">^4.6.0</PackageJsonDependenciesRemixicon>
     <PackageJsonDependenciesRxjs Condition="$(PackageJsonDependenciesRxjs) == ''">~7.8.0</PackageJsonDependenciesRxjs>
     <PackageJsonDependenciesTslib Condition="$(PackageJsonDependenciesTslib) == ''">^2.3.0</PackageJsonDependenciesTslib>
