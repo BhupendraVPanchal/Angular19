@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Demo_2\\Angular19\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\demo\\demo.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\demo\\demo.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|d:\\demo_2\\angular19\\litejiraapi\\business_logic\\task\\task_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{55C5054D-AAB3-449E-B6DA-02AE2543966D}|LiteJiraAPI\\LJAPI.csproj|solutionrelative:litejiraapi\\business_logic\\task\\task_bl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|d:\\demo_2\\angular19\\litejiraui\\src\\app\\modules\\master\\task\\task-add-edit\\task-add-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{ADB94188-5A6B-40C6-9C47-1D71B7AA38E8}|LiteJiraUI\\LJUI.esproj|solutionrelative:litejiraui\\src\\app\\modules\\master\\task\\task-add-edit\\task-add-edit.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,44 +74,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "demo.component.html",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\demo\\demo.component.html",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\demo\\demo.component.html",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\demo\\demo.component.html",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\demo\\demo.component.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-06-20T08:49:29.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "task_bl.cs",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Business_Logic\\task\\task_bl.cs",
-              "RelativeDocumentMoniker": "LiteJiraAPI\\Business_Logic\\task\\task_bl.cs",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraAPI\\Business_Logic\\task\\task_bl.cs",
-              "RelativeToolTip": "LiteJiraAPI\\Business_Logic\\task\\task_bl.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T12:53:26.91Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "task-add-edit.component.ts",
-              "DocumentMoniker": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\task\\task-add-edit\\task-add-edit.component.ts",
-              "RelativeDocumentMoniker": "LiteJiraUI\\src\\app\\Modules\\master\\task\\task-add-edit\\task-add-edit.component.ts",
-              "ToolTip": "D:\\Demo_2\\Angular19\\LiteJiraUI\\src\\app\\Modules\\master\\task\\task-add-edit\\task-add-edit.component.ts",
-              "RelativeToolTip": "LiteJiraUI\\src\\app\\Modules\\master\\task\\task-add-edit\\task-add-edit.component.ts",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAgwFMAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2025-06-13T12:49:47.767Z"
             }
           ]
         }
